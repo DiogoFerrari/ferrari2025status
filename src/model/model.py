@@ -3086,6 +3086,7 @@ if SAVE:
 
 print_system_info(os.path.basename(__file__))
 print(modules_used(iversions=True, watermark=True, globals_=globals()))
+print('done!')
 
 
 

@@ -2,7 +2,7 @@
 
 This repository contains replication files for the article:
 
-- **`TBC`**
+- Ferrari and Smith (2025) "Status Threat, Partisanship, and Voters' Conservative Shift toward Right-wing Candidates". *Journal of Experimental Political Science* (conditionally accepted)
 
 # Citation
 
@@ -12,7 +12,7 @@ This repository contains replication files for the article:
     title = {Status Threat, Partisanship, and Voters' Conservative Shift toward Right-wing Candidates},
     year={2025},
     journal = {Journal of Experimental Political Science},
-    volume = {(just accepted)},
+    volume = {(conditionally accepted)},
     issue = {},
     doi = {},
     url = {},
@@ -27,7 +27,7 @@ This repository contains replication files for the article:
 
 # Pre-analysis plan
 
-Available at **`here`**
+Available [here](https://osf.io/q5cha)
 
 # Instructions for replication
 ### Option 1: Download the files manually
@@ -36,7 +36,9 @@ For replication, make sure you have the following folder structure in place
 ```ascii
 .
 ├── man                              <- folder with the manuscript (limited if copyright applies)
-│   └── figures-and-tables           <- tables and figures (in .pdf, .png. etc) used in the manuscript
+│   ├── figures-and-tables           <- tables and figures (in .pdf, .png. etc) used in the manuscript
+│   └── supp-material
+│       └── figures-and-tables       <- tables and figures used in the online supplement
 ├── src                              <- scripts for replication
 │   ├──data
 │   │  └── final                     <- folder with data used in the analysis; codebook is here
@@ -51,7 +53,7 @@ Follow the steps in the section [Replication](#replication)
 1. Donwload the replication files or clone the repository by running the following command in your terminal:
 
 ``` shell
-git clone https://github.com/DiogoFerrari/**`this repo`**
+git clone https://github.com/DiogoFerrari/ferrari2025status
 ```
 2. Follow the steps in the section [Replication](#replication)
 
@@ -167,9 +169,4 @@ cd model
 python model.py > model.log
 deactivate  # Optional
 ```
-
-
-# Note
-
-- The raw data was recoded using the file `./src/data/recodings.py` (not provided)
 
