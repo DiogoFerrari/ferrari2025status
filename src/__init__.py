@@ -1,0 +1,1 @@
+/home/diogo/Dropbox/CienciasSociais/emacs/lib/org-sci/template-project/src/__init__.py

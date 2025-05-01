@@ -1,0 +1,1363 @@
+Loading paths...done!
+Loading constants...done!
+Loading functions...done!
+Loading data 'survey.csv'... done!
+Columns matching pattern '.':
+                 Var Type      Uniq Miss (%) Head                                      
+                 rid <object>  2042    0 0% ['0' '0' '0' ... '2041' '2041' '2041']
+                rid2 <object>  2042    0 0% ['677ef6b702e9c6dffda31e57' '677ef6b702e9c...
+        duration_min <float64> 1077    0 0% [10.91666667 10.91666667 10.91666667 ... 1...
+         chk2_passed <int64>      2    0 0% [1 1 1 ... 1 1 1]
+       status_threat <category>   4    0 0% ['Racial threat', 'Racial threat', 'Racial...
+                task <int64>      6    0 0% [1 2 3 ... 4 5 6]
+                 chc <float64>    2    0 0% [2. 2. 2. ... 1. 1. 2.]
+           chc_stack <int64>      2    0 0% [0 0 0 ... 0 0 1]
+                cand <object>     2    0 0% ['A' 'A' 'A' ... 'B' 'B' 'B']
+                 chr <float64>    7    0 0% [3. 4. 4. ... 7. 7. 6.]
+            pty_pair <object>     4    0 0% ['IxI' 'IxI' 'IxI' ... 'DxR' 'RxR' 'RxR']
+    pty_pair_ordered <object>     5    0 0% ['IxI' 'IxI' 'IxI' ... 'DxR' 'RxR' 'RxR']
+      pty_pair_group <object>     2    0 0% ['Non-partisan' 'Non-partisan' 'Non-partis...
+ c_party_affiliation <object>     3    0 0% ['Independent' 'Independent' 'Independent'...
+            c_aff_ac <category>   2    0 0% ['conservative', 'liberal', 'conservative'...
+             c_trade <category>   2    0 0% ['liberal', 'liberal', 'liberal', 'conserv...
+          c_abortion <category>   2    0 0% ['liberal', 'conservative', 'liberal', 'co...
+             c_immig <category>   2    0 0% ['conservative', 'conservative', 'liberal'...
+              c_lgbt <category>   2    0 0% ['conservative', 'conservative', 'liberal'...
+               c_red <category>   2    0 0% ['conservative', 'liberal', 'liberal', 'li...
+             c_ncons <int64>      7    0 0% [4 3 1 ... 3 6 4]
+          c_aff_ac_s <object>    10    0 0% ['In my view, affirmative action can under...
+           c_trade_s <object>    10    0 0% ['I am sure that increasing trade with Chi...
+        c_abortion_s <object>    10    0 0% ['In my view, choice over abortion should ...
+           c_immig_s <object>    10    0 0% ['It is crucial to control our borders and...
+            c_lgbt_s <object>    10    0 0% ['I believe marriage should remain between...
+             c_red_s <object>    10    0 0% ['I have no doubt that progressive taxatio...
+                male <int64>      2    0 0% [0 0 0 ... 0 0 0]
+                 age <float64>   14    0 0% [4. 4. 4. ... 5. 5. 5.]
+             age_std <float64>   14    0 0% [-0.35948777 -0.35948777 -0.35948777 ...  ...
+                educ <float64>    5    0 0% [5. 5. 5. ... 2. 2. 2.]
+            educ_std <float64>    5    0 0% [ 1.36824494  1.36824494  1.36824494 ... -...
+                 inc <float64>   10    0 0% [10. 10. 10. ...  5.  5.  5.]
+             inc_std <float64>   10    0 0% [ 1.6294851   1.6294851   1.6294851  ... -...
+               state <float64>   49    0 0% [33. 33. 33. ... 38. 38. 38.]
+                 pid <object>     2    0 0% ['Republican voter' 'Republican voter' 'Re...
+                pids <float64>    4    0 0% [ 0.5  0.5  0.5 ... -1.  -1.  -1. ]
+                psid <float64>   14    0 0% [0.58823529 0.58823529 0.58823529 ... 0.70...
+                  wi <float64>   10    0 0% [0.58333333 0.58333333 0.58333333 ... 0.58...
+                  ni <float64>   10    0 0% [1.         1.         1.         ... 0.83...
+          conlib_std <float64>    8   96 0% [ 0.95055309  0.95055309  0.95055309 ... -...
+            ideo_std <float64>   12  312 1% [ 0.54941188  0.54941188  0.54941188 ... -...
+  ssp_white_minority <float64>    5    0 0% [4. 4. 4. ... 3. 3. 3.]
+    ssp_white_status <float64>    5    0 0% [4. 4. 4. ... 3. 3. 3.]
+      ssp_white_econ <float64>    5    0 0% [4. 4. 4. ... 4. 4. 4.]
+       ssp_us_leader <float64>    5    0 0% [2. 2. 2. ... 4. 4. 4.]
+       ssp_us_status <float64>    5    0 0% [5. 5. 5. ... 4. 4. 4.]
+         ssp_us_econ <float64>    5    0 0% [5. 5. 5. ... 4. 4. 4.]
+ sa_diversity_threat <float64>    6    0 0% [4. 4. 4. ... 1. 1. 1.]
+sa_diversity_benefit <float64>    6    0 0% [4. 4. 4. ... 3. 3. 3.]
+   sa_us_comp_threat <float64>    6    0 0% [4. 4. 4. ... 4. 4. 4.]
+  sa_us_comp_benefit <float64>    6    0 0% [5. 5. 5. ... 4. 4. 4.]
+            gp_white <float64>   11    0 0% [8. 8. 8. ... 8. 8. 8.]
+            gp_black <float64>   11    0 0% [ 8.  8.  8. ... 10. 10. 10.]
+           gp_latino <float64>   11    0 0% [8. 8. 8. ... 8. 8. 8.]
+            gp_asian <float64>   11    0 0% [ 8.  8.  8. ... 10. 10. 10.]
+              gp_usa <float64>   11    0 0% [4. 4. 4. ... 9. 9. 9.]
+            gp_china <float64>   11    0 0% [1. 1. 1. ... 8. 8. 8.]
+               gp_uk <float64>   11    0 0% [6. 6. 6. ... 8. 8. 8.]
+            gp_japan <float64>   11    0 0% [ 5.  5.  5. ... 10. 10. 10.]
+                  gp <float64>   67    0 0% [0.6    0.6    0.6    ... 0.8875 0.8875 0....
+                  mc <object>    51    0 0% ['1,4,5' '1,4,5' '1,4,5' ... '1,4,5' '1,4,...
+            mc_group <object>    25    0 0% ['Incorrect: 1 of 4 (correct 2 of 2)' 'Inc...
+        mc_perc_corr <float64>    5    0 0% [100. 100. 100. ... 100. 100. 100.]
+      mc_perc_incorr <float64>    7    0 0% [25. 25. 25. ...  0.  0.  0.]
+            mc_score <float64>   16    0 0% [ 75.  75.  75. ... 100. 100. 100.]
+
+[Rows: 24504; Columns 66]
+shape: (2, 6)
+┌────────────────┬──────┬───────┬──────────┬───────┬───────┐
+│ pty_pair_group ┆ N    ┆ Freq  ┆ Std.Dev. ┆ low   ┆ high  │
+│ ---            ┆ ---  ┆ ---   ┆ ---      ┆ ---   ┆ ---   │
+│ str            ┆ i64  ┆ f64   ┆ f64      ┆ f64   ┆ f64   │
+╞════════════════╪══════╪═══════╪══════════╪═══════╪═══════╡
+│ Non-partisan   ┆ 510  ┆ 24.98 ┆ 1.92     ┆ 21.22 ┆ 28.73 │
+│ Partisan       ┆ 1532 ┆ 75.02 ┆ 1.11     ┆ 72.86 ┆ 77.19 │
+└────────────────┴──────┴───────┴──────────┴───────┴───────┘
+shape: (4, 6)
+┌──────────┬─────┬───────┬──────────┬───────┬───────┐
+│ pty_pair ┆ N   ┆ Freq  ┆ Std.Dev. ┆ low   ┆ high  │
+│ ---      ┆ --- ┆ ---   ┆ ---      ┆ ---   ┆ ---   │
+│ str      ┆ i64 ┆ f64   ┆ f64      ┆ f64   ┆ f64   │
+╞══════════╪═════╪═══════╪══════════╪═══════╪═══════╡
+│ DxD      ┆ 362 ┆ 17.73 ┆ 2.01     ┆ 13.79 ┆ 21.66 │
+│ DxR      ┆ 782 ┆ 38.30 ┆ 1.74     ┆ 34.89 ┆ 41.70 │
+│ IxI      ┆ 510 ┆ 24.98 ┆ 1.92     ┆ 21.22 ┆ 28.73 │
+│ RxR      ┆ 388 ┆ 19.00 ┆ 1.99     ┆ 15.10 ┆ 22.90 │
+└──────────┴─────┴───────┴──────────┴───────┴───────┘
+shape: (16, 7)
+┌──────────┬───────────────────────────────┬─────┬───────┬──────────┬───────┬───────┐
+│ pty_pair ┆ status_threat                 ┆ N   ┆ Freq  ┆ Std.Dev. ┆ low   ┆ high  │
+│ ---      ┆ ---                           ┆ --- ┆ ---   ┆ ---      ┆ ---   ┆ ---   │
+│ str      ┆ enum                          ┆ i64 ┆ f64   ┆ f64      ┆ f64   ┆ f64   │
+╞══════════╪═══════════════════════════════╪═════╪═══════╪══════════╪═══════╪═══════╡
+│ DxD      ┆ Status reassuring             ┆ 92  ┆ 25.41 ┆ 4.54     ┆ 16.52 ┆ 34.31 │
+│ DxD      ┆ Racial threat                 ┆ 87  ┆ 24.03 ┆ 4.58     ┆ 15.05 ┆ 33.01 │
+│ DxD      ┆ Nationality threat            ┆ 90  ┆ 24.86 ┆ 4.56     ┆ 15.93 ┆ 33.79 │
+│ DxD      ┆ Racial and nationality threat ┆ 93  ┆ 25.69 ┆ 4.53     ┆ 16.81 ┆ 34.57 │
+│ DxR      ┆ Status reassuring             ┆ 199 ┆ 25.45 ┆ 3.09     ┆ 19.40 ┆ 31.50 │
+│ DxR      ┆ Racial threat                 ┆ 202 ┆ 25.83 ┆ 3.08     ┆ 19.80 ┆ 31.87 │
+│ DxR      ┆ Nationality threat            ┆ 202 ┆ 25.83 ┆ 3.08     ┆ 19.80 ┆ 31.87 │
+│ DxR      ┆ Racial and nationality threat ┆ 179 ┆ 22.89 ┆ 3.14     ┆ 16.74 ┆ 29.04 │
+│ IxI      ┆ Status reassuring             ┆ 128 ┆ 25.10 ┆ 3.83     ┆ 17.59 ┆ 32.61 │
+│ IxI      ┆ Racial threat                 ┆ 128 ┆ 25.10 ┆ 3.83     ┆ 17.59 ┆ 32.61 │
+│ IxI      ┆ Nationality threat            ┆ 126 ┆ 24.71 ┆ 3.84     ┆ 17.17 ┆ 32.24 │
+│ IxI      ┆ Racial and nationality threat ┆ 128 ┆ 25.10 ┆ 3.83     ┆ 17.59 ┆ 32.61 │
+│ RxR      ┆ Status reassuring             ┆ 94  ┆ 24.23 ┆ 4.42     ┆ 15.57 ┆ 32.89 │
+│ RxR      ┆ Racial threat                 ┆ 94  ┆ 24.23 ┆ 4.42     ┆ 15.57 ┆ 32.89 │
+│ RxR      ┆ Nationality threat            ┆ 93  ┆ 23.97 ┆ 4.43     ┆ 15.29 ┆ 32.65 │
+│ RxR      ┆ Racial and nationality threat ┆ 107 ┆ 27.58 ┆ 4.32     ┆ 19.11 ┆ 36.05 │
+└──────────┴───────────────────────────────┴─────┴───────┴──────────┴───────┴───────┘
+Estimating aggregated effect (across issues):
+Estimating issue position effects: 
+Estimating issue position effects: 
+Estimating effect of number of conservative positions...
+shape: (52, 13)
+┌───────────┬───────────┬───────────┬───────────┬───┬───────────┬───────────┬───────────┬──────────┐
+│ pid       ┆ pty_pair_ ┆ issue     ┆ position  ┆ … ┆ high      ┆ facet     ┆ facet1    ┆ facet2   │
+│ ---       ┆ group     ┆ ---       ┆ ---       ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---      │
+│ str       ┆ ---       ┆ str       ┆ str       ┆   ┆ f64       ┆ str       ┆ str       ┆ str      │
+│           ┆ str       ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+╞═══════════╪═══════════╪═══════════╪═══════════╪═══╪═══════════╪═══════════╪═══════════╪══════════╡
+│ Democrati ┆ Non-parti ┆ Aff.      ┆ conservat ┆ … ┆ 52.045883 ┆ Conservat ┆ Non-parti ┆ Conserva │
+│ c voter   ┆ san       ┆ Action    ┆ ive       ┆   ┆           ┆ ive candi ┆ san pair: ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ Independe ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (witho…   ┆ nt…       ┆          │
+│ Democrati ┆ Non-parti ┆ Aff.      ┆ liberal   ┆ … ┆ 61.902385 ┆ Liberal   ┆ Non-parti ┆ Liberal  │
+│ c voter   ┆ san       ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ san pair: ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s         ┆ Independe ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (without  ┆ nt…       ┆          │
+│           ┆           ┆           ┆           ┆   ┆           ┆ pa…       ┆           ┆          │
+│ Republica ┆ Non-parti ┆ Aff.      ┆ conservat ┆ … ┆ 62.132085 ┆ Conservat ┆ Non-parti ┆ Conserva │
+│ n voter   ┆ san       ┆ Action    ┆ ive       ┆   ┆           ┆ ive candi ┆ san pair: ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ Independe ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (witho…   ┆ nt…       ┆          │
+│ Republica ┆ Non-parti ┆ Aff.      ┆ liberal   ┆ … ┆ 51.740933 ┆ Liberal   ┆ Non-parti ┆ Liberal  │
+│ n voter   ┆ san       ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ san pair: ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s         ┆ Independe ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (without  ┆ nt…       ┆          │
+│           ┆           ┆           ┆           ┆   ┆           ┆ pa…       ┆           ┆          │
+│ Republica ┆ Partisan  ┆ Aff.      ┆ conservat ┆ … ┆ 59.171573 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ n voter   ┆           ┆ Action    ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ …         ┆ …         ┆ …         ┆ …         ┆ … ┆ …         ┆ …         ┆ …         ┆ …        │
+│ Democrati ┆ Partisan  ┆ Redistr.  ┆ liberal   ┆ … ┆ 61.870162 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ c voter   ┆           ┆           ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ Republica ┆ Partisan  ┆ Party:    ┆ Liberal   ┆ … ┆ 40.915955 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ n voter   ┆           ┆ Dem.      ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ Republica ┆ Partisan  ┆ Party:    ┆ Conservat ┆ … ┆ 70.249499 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ n voter   ┆           ┆ Rep.      ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ Democrati ┆ Partisan  ┆ Party:    ┆ Liberal   ┆ … ┆ 67.786405 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ c voter   ┆           ┆ Dem.      ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ Democrati ┆ Partisan  ┆ Party:    ┆ Conservat ┆ … ┆ 43.58702  ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ c voter   ┆           ┆ Rep.      ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+└───────────┴───────────┴───────────┴───────────┴───┴───────────┴───────────┴───────────┴──────────┘
+Saving Figure fig-1.pdf...done!
+Saving Figure fig-1.eps...done!
+Saving Figure fig-1.png...done!
+Saving table fig-1.xlsx...done!
+Saving table fig-1.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-1.pdf}
+\caption{\label{fig-1}Percentage of time (y-axis) voters who identify with the Democratic or Republican party (color code) chose candidates with conservative (top panels) or liberal  positions (bottom panels) in various policy areas (x-axis). The left panels show cases in which choices involved candidates from difference parties. Right panels show choices between two independent candiddates. Only status reassuring exposure included (see online supplement for other conditions). }
+\end{label*}
+
+shape: (52, 13)
+┌───────────┬───────────┬───────────┬───────────┬───┬───────────┬───────────┬───────────┬──────────┐
+│ pid       ┆ pty_pair_ ┆ issue     ┆ position  ┆ … ┆ high      ┆ facet     ┆ facet1    ┆ facet2   │
+│ ---       ┆ group     ┆ ---       ┆ ---       ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---      │
+│ str       ┆ ---       ┆ str       ┆ str       ┆   ┆ f64       ┆ str       ┆ str       ┆ str      │
+│           ┆ str       ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+╞═══════════╪═══════════╪═══════════╪═══════════╪═══╪═══════════╪═══════════╪═══════════╪══════════╡
+│ Republica ┆ Non-parti ┆ Aff.      ┆ conservat ┆ … ┆ 62.553751 ┆ Conservat ┆ Non-parti ┆ Conserva │
+│ n voter   ┆ san       ┆ Action    ┆ ive       ┆   ┆           ┆ ive candi ┆ san pair: ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ Independe ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (witho…   ┆ nt…       ┆          │
+│ Republica ┆ Non-parti ┆ Aff.      ┆ liberal   ┆ … ┆ 52.108506 ┆ Liberal   ┆ Non-parti ┆ Liberal  │
+│ n voter   ┆ san       ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ san pair: ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s         ┆ Independe ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (without  ┆ nt…       ┆          │
+│           ┆           ┆           ┆           ┆   ┆           ┆ pa…       ┆           ┆          │
+│ Democrati ┆ Non-parti ┆ Aff.      ┆ conservat ┆ … ┆ 50.399632 ┆ Conservat ┆ Non-parti ┆ Conserva │
+│ c voter   ┆ san       ┆ Action    ┆ ive       ┆   ┆           ┆ ive candi ┆ san pair: ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ Independe ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (witho…   ┆ nt…       ┆          │
+│ Democrati ┆ Non-parti ┆ Aff.      ┆ liberal   ┆ … ┆ 63.79511  ┆ Liberal   ┆ Non-parti ┆ Liberal  │
+│ c voter   ┆ san       ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ san pair: ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s         ┆ Independe ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (without  ┆ nt…       ┆          │
+│           ┆           ┆           ┆           ┆   ┆           ┆ pa…       ┆           ┆          │
+│ Democrati ┆ Partisan  ┆ Aff.      ┆ liberal   ┆ … ┆ 60.888841 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ c voter   ┆           ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ …         ┆ …         ┆ …         ┆ …         ┆ … ┆ …         ┆ …         ┆ …         ┆ …        │
+│ Democrati ┆ Partisan  ┆ Redistr.  ┆ conservat ┆ … ┆ 53.430037 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ c voter   ┆           ┆           ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ Democrati ┆ Partisan  ┆ Party:    ┆ Conservat ┆ … ┆ 45.613435 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ c voter   ┆           ┆ Rep.      ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ Republica ┆ Partisan  ┆ Party:    ┆ Conservat ┆ … ┆ 67.775947 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ n voter   ┆           ┆ Rep.      ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ Republica ┆ Partisan  ┆ Party:    ┆ Liberal   ┆ … ┆ 43.378558 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ n voter   ┆           ┆ Dem.      ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ Democrati ┆ Partisan  ┆ Party:    ┆ Liberal   ┆ … ┆ 66.134408 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ c voter   ┆           ┆ Dem.      ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+└───────────┴───────────┴───────────┴───────────┴───┴───────────┴───────────┴───────────┴──────────┘
+Saving Figure fig-l1.pdf...done!
+Saving Figure fig-l1.eps...done!
+Saving Figure fig-l1.png...done!
+Saving table fig-l1.xlsx...done!
+Saving table fig-l1.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-l1.pdf}
+\caption{\label{fig-l1}Percentage of time (y-axis) voters who identify with the Democratic or Republican party (color code) chose candidates with conservative (top panels) or liberal  positions (bottom panels) in various policy areas (x-axis). The left panels show cases in which choices involved candidates from difference parties. Right panels show choices between two independent candiddates. Only racial threat exposure included. }
+\end{label*}
+
+shape: (52, 13)
+┌───────────┬───────────┬───────────┬───────────┬───┬───────────┬───────────┬───────────┬──────────┐
+│ pid       ┆ pty_pair_ ┆ issue     ┆ position  ┆ … ┆ high      ┆ facet     ┆ facet1    ┆ facet2   │
+│ ---       ┆ group     ┆ ---       ┆ ---       ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---      │
+│ str       ┆ ---       ┆ str       ┆ str       ┆   ┆ f64       ┆ str       ┆ str       ┆ str      │
+│           ┆ str       ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+╞═══════════╪═══════════╪═══════════╪═══════════╪═══╪═══════════╪═══════════╪═══════════╪══════════╡
+│ Republica ┆ Non-parti ┆ Aff.      ┆ liberal   ┆ … ┆ 53.28584  ┆ Liberal   ┆ Non-parti ┆ Liberal  │
+│ n voter   ┆ san       ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ san pair: ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s         ┆ Independe ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (without  ┆ nt…       ┆          │
+│           ┆           ┆           ┆           ┆   ┆           ┆ pa…       ┆           ┆          │
+│ Republica ┆ Non-parti ┆ Aff.      ┆ conservat ┆ … ┆ 60.988042 ┆ Conservat ┆ Non-parti ┆ Conserva │
+│ n voter   ┆ san       ┆ Action    ┆ ive       ┆   ┆           ┆ ive candi ┆ san pair: ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ Independe ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (witho…   ┆ nt…       ┆          │
+│ Democrati ┆ Non-parti ┆ Aff.      ┆ conservat ┆ … ┆ 53.550933 ┆ Conservat ┆ Non-parti ┆ Conserva │
+│ c voter   ┆ san       ┆ Action    ┆ ive       ┆   ┆           ┆ ive candi ┆ san pair: ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ Independe ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (witho…   ┆ nt…       ┆          │
+│ Democrati ┆ Non-parti ┆ Aff.      ┆ liberal   ┆ … ┆ 60.248783 ┆ Liberal   ┆ Non-parti ┆ Liberal  │
+│ c voter   ┆ san       ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ san pair: ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s         ┆ Independe ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (without  ┆ nt…       ┆          │
+│           ┆           ┆           ┆           ┆   ┆           ┆ pa…       ┆           ┆          │
+│ Republica ┆ Partisan  ┆ Aff.      ┆ liberal   ┆ … ┆ 56.135492 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ n voter   ┆           ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ …         ┆ …         ┆ …         ┆ …         ┆ … ┆ …         ┆ …         ┆ …         ┆ …        │
+│ Democrati ┆ Partisan  ┆ Redistr.  ┆ liberal   ┆ … ┆ 62.031847 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ c voter   ┆           ┆           ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ Republica ┆ Partisan  ┆ Party:    ┆ Liberal   ┆ … ┆ 39.02632  ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ n voter   ┆           ┆ Dem.      ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ Republica ┆ Partisan  ┆ Party:    ┆ Conservat ┆ … ┆ 72.503785 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ n voter   ┆           ┆ Rep.      ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ Democrati ┆ Partisan  ┆ Party:    ┆ Conservat ┆ … ┆ 48.842888 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ c voter   ┆           ┆ Rep.      ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ Democrati ┆ Partisan  ┆ Party:    ┆ Liberal   ┆ … ┆ 62.052935 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ c voter   ┆           ┆ Dem.      ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+└───────────┴───────────┴───────────┴───────────┴───┴───────────┴───────────┴───────────┴──────────┘
+Saving Figure fig-l2.pdf...done!
+Saving Figure fig-l2.eps...done!
+Saving Figure fig-l2.png...done!
+Saving table fig-l2.xlsx...done!
+Saving table fig-l2.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-l2.pdf}
+\caption{\label{fig-l2}Percentage of time (y-axis) voters who identify with the Democratic or Republican party (color code) chose candidates with conservative (top panels) or liberal  positions (bottom panels) in various policy areas (x-axis). The left panels show cases in which choices involved candidates from difference parties. Right panels show choices between two independent candiddates. Only nationality threat exposure included. }
+\end{label*}
+
+shape: (52, 13)
+┌───────────┬───────────┬───────────┬───────────┬───┬───────────┬───────────┬───────────┬──────────┐
+│ pid       ┆ pty_pair_ ┆ issue     ┆ position  ┆ … ┆ high      ┆ facet     ┆ facet1    ┆ facet2   │
+│ ---       ┆ group     ┆ ---       ┆ ---       ┆   ┆ ---       ┆ ---       ┆ ---       ┆ ---      │
+│ str       ┆ ---       ┆ str       ┆ str       ┆   ┆ f64       ┆ str       ┆ str       ┆ str      │
+│           ┆ str       ┆           ┆           ┆   ┆           ┆           ┆           ┆          │
+╞═══════════╪═══════════╪═══════════╪═══════════╪═══╪═══════════╪═══════════╪═══════════╪══════════╡
+│ Democrati ┆ Non-parti ┆ Aff.      ┆ conservat ┆ … ┆ 51.762206 ┆ Conservat ┆ Non-parti ┆ Conserva │
+│ c voter   ┆ san       ┆ Action    ┆ ive       ┆   ┆           ┆ ive candi ┆ san pair: ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ Independe ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (witho…   ┆ nt…       ┆          │
+│ Republica ┆ Non-parti ┆ Aff.      ┆ liberal   ┆ … ┆ 51.283423 ┆ Liberal   ┆ Non-parti ┆ Liberal  │
+│ n voter   ┆ san       ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ san pair: ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s         ┆ Independe ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (without  ┆ nt…       ┆          │
+│           ┆           ┆           ┆           ┆   ┆           ┆ pa…       ┆           ┆          │
+│ Republica ┆ Non-parti ┆ Aff.      ┆ conservat ┆ … ┆ 62.725725 ┆ Conservat ┆ Non-parti ┆ Conserva │
+│ n voter   ┆ san       ┆ Action    ┆ ive       ┆   ┆           ┆ ive candi ┆ san pair: ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ Independe ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (witho…   ┆ nt…       ┆          │
+│ Democrati ┆ Non-parti ┆ Aff.      ┆ liberal   ┆ … ┆ 62.805905 ┆ Liberal   ┆ Non-parti ┆ Liberal  │
+│ c voter   ┆ san       ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ san pair: ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s         ┆ Independe ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (without  ┆ nt…       ┆          │
+│           ┆           ┆           ┆           ┆   ┆           ┆ pa…       ┆           ┆          │
+│ Republica ┆ Partisan  ┆ Aff.      ┆ liberal   ┆ … ┆ 53.188505 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ n voter   ┆           ┆ Action    ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ …         ┆ …         ┆ …         ┆ …         ┆ … ┆ …         ┆ …         ┆ …         ┆ …        │
+│ Democrati ┆ Partisan  ┆ Redistr.  ┆ conservat ┆ … ┆ 50.819896 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ c voter   ┆           ┆           ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ Republica ┆ Partisan  ┆ Party:    ┆ Conservat ┆ … ┆ 73.461395 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ n voter   ┆           ┆ Rep.      ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ Republica ┆ Partisan  ┆ Party:    ┆ Liberal   ┆ … ┆ 38.638489 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ n voter   ┆           ┆ Dem.      ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+│ Democrati ┆ Partisan  ┆ Party:    ┆ Conservat ┆ … ┆ 43.218354 ┆ Conservat ┆ Partisan  ┆ Conserva │
+│ c voter   ┆           ┆ Rep.      ┆ ive       ┆   ┆           ┆ ive candi ┆ pair: Dem ┆ tive can │
+│           ┆           ┆           ┆           ┆   ┆           ┆ dates     ┆ ocratic   ┆ didates  │
+│           ┆           ┆           ┆           ┆   ┆           ┆ (with …   ┆ vs …      ┆          │
+│ Democrati ┆ Partisan  ┆ Party:    ┆ Liberal   ┆ … ┆ 67.843655 ┆ Liberal   ┆ Partisan  ┆ Liberal  │
+│ c voter   ┆           ┆ Dem.      ┆           ┆   ┆           ┆ candidate ┆ pair: Dem ┆ candidat │
+│           ┆           ┆           ┆           ┆   ┆           ┆ s (with   ┆ ocratic   ┆ es       │
+│           ┆           ┆           ┆           ┆   ┆           ┆ party…    ┆ vs …      ┆          │
+└───────────┴───────────┴───────────┴───────────┴───┴───────────┴───────────┴───────────┴──────────┘
+Saving Figure fig-l3.pdf...done!
+Saving Figure fig-l3.eps...done!
+Saving Figure fig-l3.png...done!
+Saving table fig-l3.xlsx...done!
+Saving table fig-l3.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-l3.pdf}
+\caption{\label{fig-l3}Percentage of time (y-axis) voters who identify with the Democratic or Republican party (color code) chose candidates with conservative (top panels) or liberal  positions (bottom panels) in various policy areas (x-axis). The left panels show cases in which choices involved candidates from difference parties. Right panels show choices between two independent candiddates. Only joint racial and nationality threat exposure included. }
+\end{label*}
+
+Columns matching pattern '.':
+      Var Type      Uniq Miss (%) Head                                                 
+      pid <category>   3    0 0% ['Republican voter', 'Republican voter', 'Republican ...
+     nobs <int64>      3    0 0% [3096 3096 3096 3096 3096 3096 3096 3096 3096 3096 30...
+ estimate <float64>   72    0 0% [ 0.12204082  0.04629938  0.16212426  0.1640511   0.0...
+ Std.Err. <float64>   72    0 0% [0.03374851 0.0350338  0.04551165 0.03751205 0.035826...
+        z <float64>   72    0 0% [ 3.61618435  1.32156315  3.56225877  4.37329048  2.2...
+    P>|z| <float64>   72    0 0% [2.98977489e-04 1.86313660e-01 3.67677711e-04 1.22387...
+       lo <float64>   72    0 0% [ 0.05589496 -0.02236561  0.07292307  0.09052883  0.0...
+       hi <float64>   72    0 0% [ 0.18818667  0.11496438  0.25132544  0.23757338  0.1...
+    issue <object>     6    0 0% ['Affirmative action' 'Trade with China' 'Abortion' '...
+   threat <object>     4    0 0% ['Control' 'Control' 'Control' 'Control' 'Control' 'C...
+condition <object>     1    0 0% ['Status threat' 'Status threat' 'Status threat' 'Sta...
+   pvalue <object>     5    0 0% ['***' ' ' '***' '***' '*' '**' ' ' ' ' ' ' '+' ' ' '...
+
+[Rows: 72; Columns 12]
+Saving Figure fig-2.pdf...done!
+Saving Figure fig-2.eps...done!
+Saving Figure fig-2.png...done!
+Saving table fig-2.xlsx...done!
+Saving table fig-2.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-2.pdf}
+\caption{\label{fig-2}Point estimates (shapes) and 95\% confidence intervals (bars) capturing the causal effect (x-axis) of status threat (shapes and colors) on voters’ support for candidates due to their conservative policy position (y-axis). Estimates based on linear probability models using non-partisan candidate pairs only.Panels show subsamples by voters' partisanship and using pooled data. SE clustered by subject.}
+\end{label*}
+
+Columns matching pattern '.':
+      Var Type      Uniq Miss (%) Head                                                 
+      pid <category>   2    0 0% ['Republican voter', 'Republican voter', 'Republican ...
+     pair <object>     3    0 0% [' Democratic caniddates' ' Democratic caniddates'
+ '...
+     nobs <int64>      6    0 0% [2296 2296 2296 2296 2296 2296 2296 2296 2296 2296 22...
+ estimate <float64>  152    0 0% [ 3.93998961e-02 -3.43318058e-02  1.00011979e-01  4.9...
+ Std.Err. <float64>  152    0 0% [0.03953079 0.04358046 0.04063912 0.03568117 0.044617...
+        z <float64>  152    0 0% [ 9.96688872e-01 -7.87779799e-01  2.46097819e+00  1.3...
+    P>|z| <float64>  152    0 0% [3.18915553e-01 4.30825519e-01 1.38558789e-02 1.67970...
+       lo <float64>  152    0 0% [-0.03807902 -0.11974794  0.02036077 -0.02073827 -0.0...
+       hi <float64>  152    0 0% [ 0.11687882  0.05108433  0.17966318  0.11912936  0.1...
+    issue <object>     7    0 0% ['Affirmative action' 'Trade with China' 'Abortion' '...
+   threat <object>     4    0 0% ['Control' 'Control' 'Control' 'Control' 'Control' 'C...
+condition <object>     1    0 0% ['Status threat' 'Status threat' 'Status threat' 'Sta...
+   pvalue <object>     5    0 0% [' ' ' ' '*' ' ' ' ' '+' '+' ' ' ' ' ' ' ' ' '+' ' ' ...
+
+[Rows: 152; Columns 13]
+Saving Figure fig-3.pdf...done!
+Saving Figure fig-3.eps...done!
+Saving Figure fig-3.png...done!
+Saving table fig-3.xlsx...done!
+Saving table fig-3.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-3.pdf}
+\caption{\label{fig-3}Point estimates (shapes) and 95\% confidence intervals (bars) capturing the causal effect (x-axis) of status threat (shapes and colors) on voters’ support for candidates due to their conservative policy position (y-axis). Estimates based on linear probability models using partisan candidate pairs (column panels).Row panels show subsamples by voters' partisanship. SE clustered by subject.}
+\end{label*}
+
+Report for Figure conservative-on-redistribution plot:
+shape: (0, 5)
+┌──────┬───────┬────────┬───────────┬──────────┐
+│ pid  ┆ issue ┆ threat ┆ condition ┆ estimate │
+│ ---  ┆ ---   ┆ ---    ┆ ---       ┆ ---      │
+│ enum ┆ str   ┆ str    ┆ str       ┆ f64      │
+╞══════╪═══════╪════════╪═══════════╪══════════╡
+└──────┴───────┴────────┴───────────┴──────────┘
+Report for Figure conservative-on-redistribution plot:
+shape: (0, 5)
+┌──────┬───────┬────────┬───────────┬──────────┐
+│ pid  ┆ issue ┆ threat ┆ condition ┆ estimate │
+│ ---  ┆ ---   ┆ ---    ┆ ---       ┆ ---      │
+│ enum ┆ str   ┆ str    ┆ str       ┆ f64      │
+╞══════╪═══════╪════════╪═══════════╪══════════╡
+└──────┴───────┴────────┴───────────┴──────────┘
+Saving Figure fig-4.pdf...done!
+Saving Figure fig-4.eps...done!
+Saving Figure fig-4.png...done!
+Saving table fig-4.xlsx...done!
+Saving table fig-4.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-4.pdf}
+\caption{\label{fig-4}Predicted probability of voting for the candidate as a function of the number of conservative positions taken on different issues (x-axis) by status threat exposure (shapes), voters' partisanship (line types),  and party profile of the candiates competing (panels).}
+\end{label*}
+
+Estimating issue position effects for w/o speeders... done!
+Checking pre-treatment covariate balance...done!
+Estimating issue position effects: 
+MC: Estimating treatment effect on ssp_white_minority...done!
+MC: Estimating treatment effect on ssp_white_status...done!
+MC: Estimating treatment effect on ssp_white_econ...done!
+MC: Estimating treatment effect on ssp_us_leader...done!
+MC: Estimating treatment effect on ssp_us_status...done!
+MC: Estimating treatment effect on ssp_us_econ...done!
+Estimating treatment effect on Feel threatened by ethnic diversity (sa_diversity_threat)...done!
+Estimating treatment effect on Feel benefit from ethnic diversity (sa_diversity_benefit)...done!
+Estimating treatment effect on Feel threatened by other countries (sa_us_comp_threat)...done!
+Estimating treatment effect on Feel benefit from other countries (sa_us_comp_benefit)...done!
+Estimating treatment effect on Feels toward white Americans (gp_white)...done!
+Estimating treatment effect on Feels toward black Americans (gp_black)...done!
+Estimating treatment effect on Feels toward Latino Americans (gp_latino)...done!
+Estimating treatment effect on Feels toward Asian Americans (gp_asian)...done!
+Estimating treatment effect on Feels toward The United States (gp_usa)...done!
+Estimating treatment effect on Feels toward China (gp_china)...done!
+Estimating treatment effect on Feels toward The United Kingdom (gp_uk)...done!
+Estimating treatment effect on Feels toward Japan (gp_japan)...done!
+Estimating treatment effect on Generalized prejudice (gp)...done!
+Columns matching pattern '.':
+                 Var Type      Uniq Miss (%) Head                                      
+                 rid <object>  2042    0 0% ['0' '0' '0' ... '2041' '2041' '2041']
+                rid2 <object>  2042    0 0% ['677ef6b702e9c6dffda31e57' '677ef6b702e9c...
+        duration_min <float64> 1077    0 0% [10.91666667 10.91666667 10.91666667 ... 1...
+         chk2_passed <int64>      2    0 0% [1 1 1 ... 1 1 1]
+       status_threat <category>   4    0 0% ['Racial threat', 'Racial threat', 'Racial...
+                task <int64>      6    0 0% [1 2 3 ... 4 5 6]
+                 chc <float64>    2    0 0% [2. 2. 2. ... 1. 1. 2.]
+           chc_stack <int64>      2    0 0% [0 0 0 ... 0 0 1]
+                cand <object>     2    0 0% ['A' 'A' 'A' ... 'B' 'B' 'B']
+                 chr <float64>    7    0 0% [3. 4. 4. ... 7. 7. 6.]
+            pty_pair <object>     4    0 0% ['IxI' 'IxI' 'IxI' ... 'DxR' 'RxR' 'RxR']
+    pty_pair_ordered <object>     5    0 0% ['IxI' 'IxI' 'IxI' ... 'DxR' 'RxR' 'RxR']
+      pty_pair_group <object>     2    0 0% ['Non-partisan' 'Non-partisan' 'Non-partis...
+ c_party_affiliation <object>     3    0 0% ['Independent' 'Independent' 'Independent'...
+            c_aff_ac <category>   2    0 0% ['conservative', 'liberal', 'conservative'...
+             c_trade <category>   2    0 0% ['liberal', 'liberal', 'liberal', 'conserv...
+          c_abortion <category>   2    0 0% ['liberal', 'conservative', 'liberal', 'co...
+             c_immig <category>   2    0 0% ['conservative', 'conservative', 'liberal'...
+              c_lgbt <category>   2    0 0% ['conservative', 'conservative', 'liberal'...
+               c_red <category>   2    0 0% ['conservative', 'liberal', 'liberal', 'li...
+             c_ncons <int64>      7    0 0% [4 3 1 ... 3 6 4]
+          c_aff_ac_s <object>    10    0 0% ['In my view, affirmative action can under...
+           c_trade_s <object>    10    0 0% ['I am sure that increasing trade with Chi...
+        c_abortion_s <object>    10    0 0% ['In my view, choice over abortion should ...
+           c_immig_s <object>    10    0 0% ['It is crucial to control our borders and...
+            c_lgbt_s <object>    10    0 0% ['I believe marriage should remain between...
+             c_red_s <object>    10    0 0% ['I have no doubt that progressive taxatio...
+                male <int64>      2    0 0% [0 0 0 ... 0 0 0]
+                 age <float64>   14    0 0% [4. 4. 4. ... 5. 5. 5.]
+             age_std <float64>   14    0 0% [-0.35948777 -0.35948777 -0.35948777 ...  ...
+                educ <float64>    5    0 0% [5. 5. 5. ... 2. 2. 2.]
+            educ_std <float64>    5    0 0% [ 1.36824494  1.36824494  1.36824494 ... -...
+                 inc <float64>   10    0 0% [10. 10. 10. ...  5.  5.  5.]
+             inc_std <float64>   10    0 0% [ 1.6294851   1.6294851   1.6294851  ... -...
+               state <float64>   49    0 0% [33. 33. 33. ... 38. 38. 38.]
+                 pid <object>     2    0 0% ['Republican voter' 'Republican voter' 'Re...
+                pids <float64>    4    0 0% [ 0.5  0.5  0.5 ... -1.  -1.  -1. ]
+                psid <float64>   14    0 0% [0.58823529 0.58823529 0.58823529 ... 0.70...
+                  wi <float64>   10    0 0% [0.58333333 0.58333333 0.58333333 ... 0.58...
+                  ni <float64>   10    0 0% [1.         1.         1.         ... 0.83...
+          conlib_std <float64>    8   96 0% [ 0.95055309  0.95055309  0.95055309 ... -...
+            ideo_std <float64>   12  312 1% [ 0.54941188  0.54941188  0.54941188 ... -...
+  ssp_white_minority <float64>    5    0 0% [4. 4. 4. ... 3. 3. 3.]
+    ssp_white_status <float64>    5    0 0% [4. 4. 4. ... 3. 3. 3.]
+      ssp_white_econ <float64>    5    0 0% [4. 4. 4. ... 4. 4. 4.]
+       ssp_us_leader <float64>    5    0 0% [2. 2. 2. ... 4. 4. 4.]
+       ssp_us_status <float64>    5    0 0% [5. 5. 5. ... 4. 4. 4.]
+         ssp_us_econ <float64>    5    0 0% [5. 5. 5. ... 4. 4. 4.]
+ sa_diversity_threat <float64>    6    0 0% [4. 4. 4. ... 1. 1. 1.]
+sa_diversity_benefit <float64>    6    0 0% [4. 4. 4. ... 3. 3. 3.]
+   sa_us_comp_threat <float64>    6    0 0% [4. 4. 4. ... 4. 4. 4.]
+  sa_us_comp_benefit <float64>    6    0 0% [5. 5. 5. ... 4. 4. 4.]
+            gp_white <float64>   11    0 0% [8. 8. 8. ... 8. 8. 8.]
+            gp_black <float64>   11    0 0% [ 8.  8.  8. ... 10. 10. 10.]
+           gp_latino <float64>   11    0 0% [8. 8. 8. ... 8. 8. 8.]
+            gp_asian <float64>   11    0 0% [ 8.  8.  8. ... 10. 10. 10.]
+              gp_usa <float64>   11    0 0% [4. 4. 4. ... 9. 9. 9.]
+            gp_china <float64>   11    0 0% [1. 1. 1. ... 8. 8. 8.]
+               gp_uk <float64>   11    0 0% [6. 6. 6. ... 8. 8. 8.]
+            gp_japan <float64>   11    0 0% [ 5.  5.  5. ... 10. 10. 10.]
+                  gp <float64>   67    0 0% [0.6    0.6    0.6    ... 0.8875 0.8875 0....
+                  mc <object>    51    0 0% ['1,4,5' '1,4,5' '1,4,5' ... '1,4,5' '1,4,...
+            mc_group <object>    25    0 0% ['Incorrect: 1 of 4 (correct 2 of 2)' 'Inc...
+        mc_perc_corr <float64>    5    0 0% [100. 100. 100. ... 100. 100. 100.]
+      mc_perc_incorr <float64>    7    0 0% [25. 25. 25. ...  0.  0.  0.]
+            mc_score <float64>   16    0 0% [ 75.  75.  75. ... 100. 100. 100.]
+
+[Rows: 24504; Columns 66]
+Estimating issue position effects: 
+Estimating issue position effects: 
+Loading data 'us-census.xlsx'... done!
+shape: (5, 5)
+┌─────────────────────────────────────────────────────┬─────┬────────┬────────┬────────────┐
+│ Group                                               ┆ N   ┆ Census ┆ Survey ┆ Difference │
+│ ---                                                 ┆ --- ┆ ---    ┆ ---    ┆ ---        │
+│ str                                                 ┆ i64 ┆ f64    ┆ f64    ┆ f64        │
+╞═════════════════════════════════════════════════════╪═════╪════════╪════════╪════════════╡
+│ Less than high school graduate                      ┆ 14  ┆ 9.77   ┆ 0.69   ┆ 9.08       │
+│ Complete high school (or equivalent, including GED) ┆ 265 ┆ 27.84  ┆ 12.98  ┆ 14.87      │
+│ Some college or associates degree                   ┆ 577 ┆ 27.60  ┆ 28.26  ┆ -0.66      │
+│ Bachelors degree                                    ┆ 739 ┆ 22.13  ┆ 36.19  ┆ -14.06     │
+│ Graduate or professional degree                     ┆ 447 ┆ 12.66  ┆ 21.89  ┆ -9.23      │
+└─────────────────────────────────────────────────────┴─────┴────────┴────────┴────────────┘
+\begin{table}[!htb]
+\caption{Relative Frequencies for Education: Census vs survey}
+\label{tab-g1}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{lcccc}
+\toprule
+Group  &  N  &  Census  &  Survey  &  Difference \\
+\midrule
+Less than high school graduate  &  14  &  9.7688  &  0.6856  &  9.0832 \\
+Complete high school (or equivalent, including GED)  &  265  &  27.8433  &  12.9775  &  14.8658 \\
+Some college or associates degree  &  577  &  27.5950  &  28.2566  &  -0.6616 \\
+Bachelors degree  &  739  &  22.1289  &  36.1900  &  -14.0611 \\
+Graduate or professional degree  &  447  &  12.6631  &  21.8903  &  -9.2272 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-g1.xlsx...done!
+Saving table tab-g1.csv...done!
+Saving table tab-g1.tex...done!
+Loading data 'us-census.xlsx'... done!
+shape: (10, 5)
+┌──────────────────────┬─────┬────────┬────────┬────────────┐
+│ Group                ┆ N   ┆ Census ┆ Survey ┆ Difference │
+│ ---                  ┆ --- ┆ ---    ┆ ---    ┆ ---        │
+│ str                  ┆ i64 ┆ f64    ┆ f64    ┆ f64        │
+╞══════════════════════╪═════╪════════╪════════╪════════════╡
+│ Less than $10,000    ┆ 59  ┆ 5.80   ┆ 2.89   ┆ 2.91       │
+│ $10,000 to $14,999   ┆ 53  ┆ 4.00   ┆ 2.60   ┆ 1.40       │
+│ $15,000 to $24,999   ┆ 102 ┆ 8.30   ┆ 5.00   ┆ 3.30       │
+│ $25,000 to $34,999   ┆ 169 ┆ 8.40   ┆ 8.28   ┆ 0.12       │
+│ $35,000 to $49,999   ┆ 221 ┆ 11.90  ┆ 10.82  ┆ 1.08       │
+│ $50,000 to $74,999   ┆ 379 ┆ 17.40  ┆ 18.56  ┆ -1.16      │
+│ $75,000 to $99,999   ┆ 292 ┆ 12.80  ┆ 14.30  ┆ -1.50      │
+│ $100,000 to $149,999 ┆ 432 ┆ 15.70  ┆ 21.16  ┆ -5.46      │
+│ $150,000 to $199,999 ┆ 203 ┆ 7.20   ┆ 9.94   ┆ -2.74      │
+│ $200,000 or more     ┆ 132 ┆ 8.50   ┆ 6.46   ┆ 2.04       │
+└──────────────────────┴─────┴────────┴────────┴────────────┘
+\begin{table}[!htb]
+\caption{Relative Frequencies for Income: Census vs survey}
+\label{tab-g2}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{lcccc}
+\toprule
+Group  &  N  &  Census  &  Survey  &  Difference \\
+\midrule
+Less than $10,000  &  59  &  5.8000  &  2.8893  &  2.9107 \\
+$10,000 to $14,999  &  53  &  4.0000  &  2.5955  &  1.4045 \\
+$15,000 to $24,999  &  102  &  8.3000  &  4.9951  &  3.3049 \\
+$25,000 to $34,999  &  169  &  8.4000  &  8.2762  &  0.1238 \\
+$35,000 to $49,999  &  221  &  11.9000  &  10.8227  &  1.0773 \\
+$50,000 to $74,999  &  379  &  17.4000  &  18.5602  &  -1.1602 \\
+$75,000 to $99,999  &  292  &  12.8000  &  14.2997  &  -1.4997 \\
+$100,000 to $149,999  &  432  &  15.7000  &  21.1557  &  -5.4557 \\
+$150,000 to $199,999  &  203  &  7.2000  &  9.9412  &  -2.7412 \\
+$200,000 or more  &  132  &  8.5000  &  6.4643  &  2.0357 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-g2.xlsx...done!
+Saving table tab-g2.csv...done!
+Saving table tab-g2.tex...done!
+Loading data 'us-census.xlsx'... done!
+shape: (14, 5)
+┌───────────────────┬─────┬────────┬────────┬────────────┐
+│ Group             ┆ N   ┆ Census ┆ Survey ┆ Difference │
+│ ---               ┆ --- ┆ ---    ┆ ---    ┆ ---        │
+│ str               ┆ i64 ┆ f64    ┆ f64    ┆ f64        │
+╞═══════════════════╪═════╪════════╪════════╪════════════╡
+│ 18 to 24 years    ┆ 171 ┆ 11.90  ┆ 8.37   ┆ 3.52       │
+│ 25 to 29 years    ┆ 242 ┆ 9.10   ┆ 11.85  ┆ -2.75      │
+│ 30 to 34 years    ┆ 323 ┆ 8.75   ┆ 15.82  ┆ -7.06      │
+│ 35 to 39 years    ┆ 276 ┆ 8.51   ┆ 13.52  ┆ -5.00      │
+│ 40 to 44 years    ┆ 213 ┆ 7.91   ┆ 10.43  ┆ -2.52      │
+│ 45 to 49 years    ┆ 236 ┆ 7.99   ┆ 11.56  ┆ -3.57      │
+│ 50 to 54 years    ┆ 195 ┆ 8.02   ┆ 9.55   ┆ -1.53      │
+│ 55 to 59 years    ┆ 121 ┆ 8.42   ┆ 5.93   ┆ 2.49       │
+│ 60 to 64 years    ┆ 114 ┆ 8.22   ┆ 5.58   ┆ 2.64       │
+│ 65 to 69 years    ┆ 70  ┆ 6.83   ┆ 3.43   ┆ 3.40       │
+│ 70 to 74 years    ┆ 52  ┆ 5.54   ┆ 2.55   ┆ 3.00       │
+│ 75 to 79 years    ┆ 22  ┆ 3.82   ┆ 1.08   ┆ 2.75       │
+│ 80 to 84 years    ┆ 5   ┆ 2.50   ┆ 0.24   ┆ 2.25       │
+│ 85 years and over ┆ 2   ┆ 2.49   ┆ 0.10   ┆ 2.39       │
+└───────────────────┴─────┴────────┴────────┴────────────┘
+\begin{table}[!htb]
+\caption{Relative Frequencies for Age: Census vs survey}
+\label{tab-g3}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{lcccc}
+\toprule
+Group  &  N  &  Census  &  Survey  &  Difference \\
+\midrule
+18 to 24 years  &  171  &  11.8984  &  8.3741  &  3.5242 \\
+25 to 29 years  &  242  &  9.1014  &  11.8511  &  -2.7497 \\
+30 to 34 years  &  323  &  8.7535  &  15.8178  &  -7.0643 \\
+35 to 39 years  &  276  &  8.5118  &  13.5162  &  -5.0043 \\
+40 to 44 years  &  213  &  7.9079  &  10.4310  &  -2.5231 \\
+45 to 49 years  &  236  &  7.9908  &  11.5573  &  -3.5665 \\
+50 to 54 years  &  195  &  8.0169  &  9.5495  &  -1.5326 \\
+55 to 59 years  &  121  &  8.4162  &  5.9256  &  2.4906 \\
+60 to 64 years  &  114  &  8.2203  &  5.5828  &  2.6375 \\
+65 to 69 years  &  70  &  6.8268  &  3.4280  &  3.3988 \\
+70 to 74 years  &  52  &  5.5425  &  2.5465  &  2.9960 \\
+75 to 79 years  &  22  &  3.8233  &  1.0774  &  2.7459 \\
+80 to 84 years  &  5  &  2.4995  &  0.2449  &  2.2546 \\
+85 years and over  &  2  &  2.4908  &  0.0979  &  2.3928 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-g3.xlsx...done!
+Saving table tab-g3.csv...done!
+Saving table tab-g3.tex...done!
+shape: (16, 10)
+┌───────────────┬──────┬─────────────┬───────┬──────────┬───────┬───────┬────────┬────────┬────────┐
+│ Variable      ┆ N    ┆ Missing (%) ┆ Mean  ┆ Std.Dev. ┆ Min   ┆ 25%   ┆ 50%    ┆ 75%    ┆ Max    │
+│ ---           ┆ ---  ┆ ---         ┆ ---   ┆ ---      ┆ ---   ┆ ---   ┆ ---    ┆ ---    ┆ ---    │
+│ str           ┆ i64  ┆ f64         ┆ f64   ┆ f64      ┆ f64   ┆ f64   ┆ f64    ┆ f64    ┆ f64    │
+╞═══════════════╪══════╪═════════════╪═══════╪══════════╪═══════╪═══════╪════════╪════════╪════════╡
+│ Age (std)     ┆ 2042 ┆ 0.00        ┆ -0.00 ┆ 1.00     ┆ -1.44 ┆ -0.72 ┆ 0.00   ┆ 0.73   ┆ 3.26   │
+│ Candidate     ┆ 2042 ┆ 0.00        ┆ 1.50  ┆ 0.50     ┆ 1.00  ┆ 1.00  ┆ 1.00   ┆ 2.00   ┆ 2.00   │
+│ selected      ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ (original)    ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Education     ┆ 2042 ┆ 0.00        ┆ -0.00 ┆ 1.00     ┆ -2.70 ┆ -0.67 ┆ 0.35   ┆ 0.35   ┆ 1.37   │
+│ (std)         ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Generalized   ┆ 2042 ┆ 0.00        ┆ 0.67  ┆ 0.15     ┆ 0.00  ┆ 0.56  ┆ 0.68   ┆ 0.78   ┆ 1.00   │
+│ prejudice     ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Left-Right    ┆ 2016 ┆ 1.27        ┆ -0.00 ┆ 1.00     ┆ -1.41 ┆ -0.85 ┆ -0.01  ┆ 0.83   ┆ 1.39   │
+│ (std)         ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Liberal-conse ┆ 2034 ┆ 0.39        ┆ -0.00 ┆ 1.00     ┆ -1.36 ┆ -0.90 ┆ 0.02   ┆ 0.95   ┆ 1.41   │
+│ rvative (std) ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Male          ┆ 2042 ┆ 0.00        ┆ 0.49  ┆ 0.50     ┆ 0.00  ┆ 0.00  ┆ 0.00   ┆ 1.00   ┆ 1.00   │
+│ Manipulation  ┆ 2042 ┆ 0.00        ┆ 83.47 ┆ 26.13    ┆ 0.00  ┆ 66.67 ┆ 100.00 ┆ 100.00 ┆ 100.00 │
+│ check         ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ (percentage   ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ correct)      ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ National      ┆ 2042 ┆ 0.00        ┆ 0.78  ┆ 0.18     ┆ 0.25  ┆ 0.67  ┆ 0.83   ┆ 0.92   ┆ 1.00   │
+│ identity      ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Partisanship  ┆ 1029 ┆ null        ┆ 50.39 ┆ 1.56     ┆ null  ┆ null  ┆ null   ┆ null   ┆ null   │
+│ (Democratic   ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ voter)        ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Partisanship  ┆ 1013 ┆ null        ┆ 49.61 ┆ 1.57     ┆ null  ┆ null  ┆ null   ┆ null   ┆ null   │
+│ (Republican   ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ voter)        ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Partisanship  ┆ 2042 ┆ 0.00        ┆ 0.70  ┆ 0.17     ┆ 0.24  ┆ 0.59  ┆ 0.71   ┆ 0.82   ┆ 1.00   │
+│ (social       ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ identity)     ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Partisanship  ┆ 2042 ┆ 0.00        ┆ -0.02 ┆ 0.85     ┆ -1.00 ┆ -1.00 ┆ -0.50  ┆ 1.00   ┆ 1.00   │
+│ (strenght)    ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ Passed        ┆ 2042 ┆ 0.00        ┆ 0.98  ┆ 0.15     ┆ 0.00  ┆ 1.00  ┆ 1.00   ┆ 1.00   ┆ 1.00   │
+│ attention     ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ check (post-c ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ onjoint)      ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ White         ┆ 2042 ┆ 0.00        ┆ 0.70  ┆ 0.18     ┆ 0.25  ┆ 0.58  ┆ 0.67   ┆ 0.83   ┆ 1.00   │
+│ identity      ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+│ income (12    ┆ 2042 ┆ 0.00        ┆ -0.00 ┆ 1.00     ┆ -2.50 ┆ -0.67 ┆ 0.25   ┆ 0.71   ┆ 1.63   │
+│ levels, std)  ┆      ┆             ┆       ┆          ┆       ┆       ┆        ┆        ┆        │
+└───────────────┴──────┴─────────────┴───────┴──────────┴───────┴───────┴────────┴────────┴────────┘
+\begin{table}[!htb]
+\caption{Descriptive statistics}
+\label{tab-h1}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{lccccccccc}
+\toprule
+Variable  &  N  &  Missing (\%)  &  Mean  &  Std.Dev.  &  Min  &  25\%  &  50\%  &  75\%  &  Max \\
+\midrule
+Age (std)  &  2042  &  0.00  &  -0.00  &  1.00  &  -1.44  &  -0.72  &  0.00  &  0.73  &  3.26 \\
+Candidate selected (original)  &  2042  &  0.00  &  1.50  &  0.50  &  1.00  &  1.00  &  1.00  &  2.00  &  2.00 \\
+Education (std)  &  2042  &  0.00  &  -0.00  &  1.00  &  -2.70  &  -0.67  &  0.35  &  0.35  &  1.37 \\
+Generalized prejudice  &  2042  &  0.00  &  0.67  &  0.15  &  0.00  &  0.56  &  0.68  &  0.78  &  1.00 \\
+Left-Right (std)  &  2016  &  1.27  &  -0.00  &  1.00  &  -1.41  &  -0.85  &  -0.01  &  0.83  &  1.39 \\
+Liberal-conservative (std)  &  2034  &  0.39  &  -0.00  &  1.00  &  -1.36  &  -0.90  &  0.02  &  0.95  &  1.41 \\
+Male  &  2042  &  0.00  &  0.49  &  0.50  &  0.00  &  0.00  &  0.00  &  1.00  &  1.00 \\
+Manipulation check (percentage correct)  &  2042  &  0.00  &  83.47  &  26.13  &  0.00  &  66.67  &  100.00  &  100.00  &  100.00 \\
+National identity  &  2042  &  0.00  &  0.78  &  0.18  &  0.25  &  0.67  &  0.83  &  0.92  &  1.00 \\
+Partisanship (Democratic voter)  &  1029  &    &  50.39  &  1.56  &    &    &    &    &   \\
+Partisanship (Republican voter)  &  1013  &    &  49.61  &  1.57  &    &    &    &    &   \\
+Partisanship (social identity)  &  2042  &  0.00  &  0.70  &  0.17  &  0.24  &  0.59  &  0.71  &  0.82  &  1.00 \\
+Partisanship (strenght)  &  2042  &  0.00  &  -0.02  &  0.85  &  -1.00  &  -1.00  &  -0.50  &  1.00  &  1.00 \\
+Passed attention check (post-conjoint)  &  2042  &  0.00  &  0.98  &  0.15  &  0.00  &  1.00  &  1.00  &  1.00  &  1.00 \\
+White identity  &  2042  &  0.00  &  0.70  &  0.18  &  0.25  &  0.58  &  0.67  &  0.83  &  1.00 \\
+income (12 levels, std)  &  2042  &  0.00  &  -0.00  &  1.00  &  -2.50  &  -0.67  &  0.25  &  0.71  &  1.63 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-h1.xlsx...done!
+Saving table tab-h1.csv...done!
+Saving table tab-h1.tex...done!
+\begin{table}[!htb]
+\caption{Sample Balance. Estimates are coefficients of a multinomial regression of treatment condition on the pre-treatment covariates}
+\label{tab-h2}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{llllllll}
+\toprule
+Pre-treatment covariate  &  Coef.  &  Std.Err.  &  t  &  $P>\mid t \mid$  &  [0.025  &  0.975]  &  Exposure \\
+\midrule
+Intercept  &  0.0991   &  0.0885  &  1.1190  &  0.2631  &  -0.0745  &  0.2726  &  Racial threat \\
+Male  &  -0.2072+  &  0.1256  &  -1.6502  &  0.0989  &  -0.4534  &  0.0389  &  Racial threat \\
+Age (std)  &  0.0043   &  0.0630  &  0.0677  &  0.9460  &  -0.1192  &  0.1277  &  Racial threat \\
+Education (std)  &  -0.1173+  &  0.0697  &  -1.6829  &  0.0924  &  -0.2539  &  0.0193  &  Racial threat \\
+income (12 levels, std)  &  -0.0056   &  0.0697  &  -0.0803  &  0.9360  &  -0.1422  &  0.1311  &  Racial threat \\
+Intercept  &  0.0535   &  0.0895  &  0.5981  &  0.5498  &  -0.1219  &  0.2290  &  Nationality threat \\
+Male  &  -0.1203   &  0.1255  &  -0.9587  &  0.3377  &  -0.3663  &  0.1257  &  Nationality threat \\
+Age (std)  &  -0.0648   &  0.0638  &  -1.0157  &  0.3098  &  -0.1900  &  0.0603  &  Nationality threat \\
+Education (std)  &  -0.0963   &  0.0698  &  -1.3793  &  0.1678  &  -0.2331  &  0.0405  &  Nationality threat \\
+income (12 levels, std)  &  0.0798   &  0.0703  &  1.1345  &  0.2566  &  -0.0580  &  0.2175  &  Nationality threat \\
+Intercept  &  0.0549   &  0.0895  &  0.6136  &  0.5395  &  -0.1205  &  0.2303  &  Racial and nationality threat \\
+Male  &  -0.1404   &  0.1258  &  -1.1164  &  0.2642  &  -0.3870  &  0.1061  &  Racial and nationality threat \\
+Age (std)  &  0.0911   &  0.0623  &  1.4616  &  0.1438  &  -0.0311  &  0.2133  &  Racial and nationality threat \\
+Education (std)  &  -0.0179   &  0.0701  &  -0.2552  &  0.7986  &  -0.1553  &  0.1195  &  Racial and nationality threat \\
+income (12 levels, std)  &  -0.0746   &  0.0699  &  -1.0671  &  0.2859  &  -0.2117  &  0.0624  &  Racial and nationality threat \\
+\bottomrule
+\multicolumn{8}{r}{+ $p<0.1$; * $p<0.05$; ** $p<0.01$; *** $p<0.001$}\\
+\end{tabular}}
+\end{table}
+Saving table tab-h2.xlsx...done!
+Saving table tab-h2.csv...done!
+Saving table tab-h2.tex...done!
+\begin{table}[!htb]
+\caption{Exposure sample size.}
+\label{tab-h3}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{lll}
+\toprule
+Exposure  &  N  &  Freq \\
+\midrule
+Status reassuring  &  513  &  25.1224 \\
+Racial threat  &  511  &  25.0245 \\
+Nationality threat  &  511  &  25.0245 \\
+Racial and nationality threat  &  507  &  24.8286 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-h3.xlsx...done!
+Saving table tab-h3.csv...done!
+Saving table tab-h3.tex...done!
+\begin{table}[!htb]
+\caption{Conjoint groups sample size.}
+\label{tab-h4}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{lcc}
+\toprule
+Conjoint pair  &  N  &  Freq \\
+\midrule
+DxD  &  362  &  17.7277 \\
+DxR  &  782  &  38.2958 \\
+IxI  &  510  &  24.9755 \\
+RxR  &  388  &  19.0010 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-h4.xlsx...done!
+Saving table tab-h4.csv...done!
+Saving table tab-h4.tex...done!
+\begin{table}[!htb]
+\caption{Conjoint groups sample size.}
+\label{tab-h5}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{lcc}
+\toprule
+Conjoint pair  &  N  &  Freq \\
+\midrule
+Non-partisan  &  510  &  24.9755 \\
+Partisan  &  1532  &  75.0245 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-h5.xlsx...done!
+Saving table tab-h5.csv...done!
+Saving table tab-h5.tex...done!
+Saving table tab-i1.xlsx...done!
+Saving table tab-i1.csv...done!
+Saving table tab-i1.tex...done!
+Saving table tab-i2.xlsx...done!
+Saving table tab-i2.csv...done!
+Saving table tab-i2.tex...done!
+Saving table tab-i4.xlsx...done!
+Saving table tab-i4.csv...done!
+Saving table tab-i4.tex...done!
+Saving table tab-i3.xlsx...done!
+Saving table tab-i3.csv...done!
+Saving table tab-i3.tex...done!
+Saving table tab-i5.xlsx...done!
+Saving table tab-i5.csv...done!
+Saving table tab-i5.tex...done!
+
+Manipulation checks:
+All correct: 1118 cases or 55%
+None incorrect: 413 cases or 20%
+Positive score: 1897 cases or 92.90%)
+
+shape: (25, 3)
+┌────────────────────────────────────┬──────┬───────┐
+│ Manipulation check (group)         ┆ N    ┆ Freq  │
+│ ---                                ┆ ---  ┆ ---   │
+│ str                                ┆ i64  ┆ f64   │
+╞════════════════════════════════════╪══════╪═══════╡
+│ All correct                        ┆ 1118 ┆ 54.75 │
+│ Correct: 1 of 2 (none incorrect)   ┆ 153  ┆ 7.49  │
+│ Correct: 1 of 3 (none incorrect)   ┆ 90   ┆ 4.41  │
+│ Correct: 2 of 3 (none incorrect)   ┆ 170  ┆ 8.33  │
+│ Incorrect: 1 of 3 (correct 0 of 3) ┆ 11   ┆ 0.54  │
+│ Incorrect: 1 of 3 (correct 1 of 3) ┆ 33   ┆ 1.62  │
+│ Incorrect: 1 of 3 (correct 2 of 3) ┆ 43   ┆ 2.11  │
+│ Incorrect: 1 of 3 (correct 3 of 3) ┆ 25   ┆ 1.22  │
+│ Incorrect: 1 of 4 (correct 0 of 2) ┆ 14   ┆ 0.69  │
+│ Incorrect: 1 of 4 (correct 1 of 2) ┆ 55   ┆ 2.69  │
+│ Incorrect: 1 of 4 (correct 2 of 2) ┆ 225  ┆ 11.02 │
+│ Incorrect: 2 of 3 (correct 1 of 3) ┆ 16   ┆ 0.78  │
+│ Incorrect: 2 of 3 (correct 2 of 3) ┆ 5    ┆ 0.24  │
+│ Incorrect: 2 of 3 (correct 3 of 3) ┆ 3    ┆ 0.15  │
+│ Incorrect: 2 of 4 (correct 0 of 2) ┆ 8    ┆ 0.39  │
+│ Incorrect: 2 of 4 (correct 1 of 2) ┆ 29   ┆ 1.42  │
+│ Incorrect: 2 of 4 (correct 2 of 2) ┆ 15   ┆ 0.73  │
+│ Incorrect: 3 of 3 (correct 0 of 3) ┆ 4    ┆ 0.20  │
+│ Incorrect: 3 of 3 (correct 1 of 3) ┆ 5    ┆ 0.24  │
+│ Incorrect: 3 of 3 (correct 2 of 3) ┆ 1    ┆ 0.05  │
+│ Incorrect: 3 of 3 (correct 3 of 3) ┆ 1    ┆ 0.05  │
+│ Incorrect: 3 of 4 (correct 0 of 2) ┆ 7    ┆ 0.34  │
+│ Incorrect: 3 of 4 (correct 1 of 2) ┆ 8    ┆ 0.39  │
+│ Incorrect: 4 of 4 (correct 0 of 2) ┆ 1    ┆ 0.05  │
+│ Incorrect: 4 of 4 (correct 1 of 2) ┆ 2    ┆ 0.10  │
+└────────────────────────────────────┴──────┴───────┘
+\begin{table}[!htb]
+\caption{Factual manipulation check}
+\label{tab-j1}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{lcc}
+\toprule
+Manipulation check (group)  &  N  &  Freq \\
+\midrule
+All correct  &  1118  &  54.75 \\
+Correct: 1 of 2 (none incorrect)  &  153  &  7.49 \\
+Correct: 1 of 3 (none incorrect)  &  90  &  4.41 \\
+Correct: 2 of 3 (none incorrect)  &  170  &  8.33 \\
+Incorrect: 1 of 3 (correct 0 of 3)  &  11  &  0.54 \\
+Incorrect: 1 of 3 (correct 1 of 3)  &  33  &  1.62 \\
+Incorrect: 1 of 3 (correct 2 of 3)  &  43  &  2.11 \\
+Incorrect: 1 of 3 (correct 3 of 3)  &  25  &  1.22 \\
+Incorrect: 1 of 4 (correct 0 of 2)  &  14  &  0.69 \\
+Incorrect: 1 of 4 (correct 1 of 2)  &  55  &  2.69 \\
+Incorrect: 1 of 4 (correct 2 of 2)  &  225  &  11.02 \\
+Incorrect: 2 of 3 (correct 1 of 3)  &  16  &  0.78 \\
+Incorrect: 2 of 3 (correct 2 of 3)  &  5  &  0.24 \\
+Incorrect: 2 of 3 (correct 3 of 3)  &  3  &  0.15 \\
+Incorrect: 2 of 4 (correct 0 of 2)  &  8  &  0.39 \\
+Incorrect: 2 of 4 (correct 1 of 2)  &  29  &  1.42 \\
+Incorrect: 2 of 4 (correct 2 of 2)  &  15  &  0.73 \\
+Incorrect: 3 of 3 (correct 0 of 3)  &  4  &  0.20 \\
+Incorrect: 3 of 3 (correct 1 of 3)  &  5  &  0.24 \\
+Incorrect: 3 of 3 (correct 2 of 3)  &  1  &  0.05 \\
+Incorrect: 3 of 3 (correct 3 of 3)  &  1  &  0.05 \\
+Incorrect: 3 of 4 (correct 0 of 2)  &  7  &  0.34 \\
+Incorrect: 3 of 4 (correct 1 of 2)  &  8  &  0.39 \\
+Incorrect: 4 of 4 (correct 0 of 2)  &  1  &  0.05 \\
+Incorrect: 4 of 4 (correct 1 of 2)  &  2  &  0.10 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-j1.xlsx...done!
+Saving table tab-j1.csv...done!
+Saving table tab-j1.tex...done!
+shape: (16, 3)
+┌────────────────────────────────────────────────────┬──────┬───────┐
+│ Manipulation check score (% correct - % incorrect) ┆ N    ┆ Freq  │
+│ ---                                                ┆ ---  ┆ ---   │
+│ f64                                                ┆ i64  ┆ f64   │
+╞════════════════════════════════════════════════════╪══════╪═══════╡
+│ -100.00                                            ┆ 5    ┆ 0.24  │
+│ -75.00                                             ┆ 7    ┆ 0.34  │
+│ -66.67                                             ┆ 5    ┆ 0.24  │
+│ -50.00                                             ┆ 10   ┆ 0.49  │
+│ -33.33                                             ┆ 27   ┆ 1.32  │
+│ -33.33                                             ┆ 1    ┆ 0.05  │
+│ -25.00                                             ┆ 22   ┆ 1.08  │
+│ 0.00                                               ┆ 68   ┆ 3.33  │
+│ 25.00                                              ┆ 55   ┆ 2.69  │
+│ 33.33                                              ┆ 3    ┆ 0.15  │
+│ 33.33                                              ┆ 133  ┆ 6.51  │
+│ 50.00                                              ┆ 168  ┆ 8.23  │
+│ 66.67                                              ┆ 25   ┆ 1.22  │
+│ 66.67                                              ┆ 170  ┆ 8.33  │
+│ 75.00                                              ┆ 225  ┆ 11.02 │
+│ 100.00                                             ┆ 1118 ┆ 54.75 │
+└────────────────────────────────────────────────────┴──────┴───────┘
+\begin{table}[!htb]
+\caption{Factual manipulation check: Scores distribution}
+\label{tab-j2}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{ccc}
+\toprule
+Manipulation check score (\% correct - \% incorrect)  &  N  &  Freq \\
+\midrule
+-100.00  &  5  &  0.24 \\
+-75.00  &  7  &  0.34 \\
+-66.67  &  5  &  0.24 \\
+-50.00  &  10  &  0.49 \\
+-33.33  &  27  &  1.32 \\
+-33.33  &  1  &  0.05 \\
+-25.00  &  22  &  1.08 \\
+0.00  &  68  &  3.33 \\
+25.00  &  55  &  2.69 \\
+33.33  &  3  &  0.15 \\
+33.33  &  133  &  6.51 \\
+50.00  &  168  &  8.23 \\
+66.67  &  25  &  1.22 \\
+66.67  &  170  &  8.33 \\
+75.00  &  225  &  11.02 \\
+100.00  &  1118  &  54.75 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-j2.xlsx...done!
+Saving table tab-j2.csv...done!
+Saving table tab-j2.tex...done!
+shape: (8, 5)
+┌────────┬────────────────────────────────────┬────────────────────┬─────┬───────┐
+│ Answer ┆ mc_group                           ┆ Exposure           ┆ N   ┆ Freq  │
+│ ---    ┆ ---                                ┆ ---                ┆ --- ┆ ---   │
+│ str    ┆ str                                ┆ enum               ┆ i64 ┆ f64   │
+╞════════╪════════════════════════════════════╪════════════════════╪═════╪═══════╡
+│ 1,5,6  ┆ Incorrect: 1 of 4 (correct 2 of 2) ┆ Racial threat      ┆ 4   ┆ 1.78  │
+│ 1,2,5  ┆ Incorrect: 1 of 4 (correct 2 of 2) ┆ Racial threat      ┆ 6   ┆ 2.67  │
+│ 1,3,5  ┆ Incorrect: 1 of 4 (correct 2 of 2) ┆ Racial threat      ┆ 17  ┆ 7.56  │
+│ 1,4,5  ┆ Incorrect: 1 of 4 (correct 2 of 2) ┆ Racial threat      ┆ 114 ┆ 50.67 │
+│ 1,3,4  ┆ Incorrect: 1 of 4 (correct 2 of 2) ┆ Nationality threat ┆ 3   ┆ 1.33  │
+│ 1,2,4  ┆ Incorrect: 1 of 4 (correct 2 of 2) ┆ Nationality threat ┆ 5   ┆ 2.22  │
+│ 1,4,6  ┆ Incorrect: 1 of 4 (correct 2 of 2) ┆ Nationality threat ┆ 11  ┆ 4.89  │
+│ 1,4,5  ┆ Incorrect: 1 of 4 (correct 2 of 2) ┆ Nationality threat ┆ 65  ┆ 28.89 │
+└────────┴────────────────────────────────────┴────────────────────┴─────┴───────┘
+\begin{table}[!htb]
+\caption{Factual manipulation check: Cases with 1 incorrect and 2 correct answers}
+\label{tab-j3}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{llcr}
+\toprule
+Answer  &  Exposure  &  N  &  Freq \\
+\midrule
+\addlinespace[0.3em]\multicolumn{4}{l}{ \textbf{Incorrect: 1 of 4 (correct 2 of 2)} }\\
+\hspace{1em}1,5,6  &  Racial threat  &  4  &  1.7778 \\
+\hspace{1em}1,2,5  &  Racial threat  &  6  &  2.6667 \\
+\hspace{1em}1,3,5  &  Racial threat  &  17  &  7.5556 \\
+\hspace{1em}1,4,5  &  Racial threat  &  114  &  50.6667 \\
+\hspace{1em}1,3,4  &  Nationality threat  &  3  &  1.3333 \\
+\hspace{1em}1,2,4  &  Nationality threat  &  5  &  2.2222 \\
+\hspace{1em}1,4,6  &  Nationality threat  &  11  &  4.8889 \\
+\hspace{1em}1,4,5  &  Nationality threat  &  65  &  28.8889 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+Saving table tab-j3.xlsx...done!
+Saving table tab-j3.csv...done!
+Saving table tab-j3.tex...done!
+\begin{table}[!htb]
+\caption{Effect of status threat exposure on social status perceptions}
+\label{tab-j4}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{p{3cm}x{2cm}x{2cm}x{2cm}x{2cm}x{2cm}x{2cm}}
+\toprule
+  &  Whites becoming minority  &  Whites loosing social status  &  Whites loosing economic stauts  &  US no longer global leader  &  Americans loosing social status  &  Americans loosing economic status \\
+\midrule
+Intercept  &  2.7719***  &  2.9084***  &  3.1170***  &  2.1442***  &  3.2593***  &  3.7856*** \\
+  &  (0.0535)  &  (0.0556)  &  (0.0535)  &  (0.0550)  &  (0.0527)  &  (0.0487) \\
+Racial threat  &  0.5588***  &  0.3206***  &  0.2138**  &  0.3606***  &  0.3689***  &  0.0833  \\
+  &  (0.0757)  &  (0.0786)  &  (0.0758)  &  (0.0779)  &  (0.0746)  &  (0.0690) \\
+Nationality threat  &  0.0989   &  0.0994   &  0.1159   &  0.9419***  &  0.6292***  &  0.1655* \\
+  &  (0.0757)  &  (0.0786)  &  (0.0758)  &  (0.0779)  &  (0.0746)  &  (0.0690) \\
+Racial and nationality threat  &  0.6009***  &  0.3894***  &  0.2460**  &  0.7887***  &  0.5672***  &  0.0428  \\
+  &  (0.0759)  &  (0.0788)  &  (0.0759)  &  (0.0781)  &  (0.0748)  &  (0.0691) \\
+N. Obs.  &  2042  &  2042  &  2042  &  2042  &  2042  &  2042 \\
+R2 (adj)  &  0.0453  &  0.0142  &  0.0048  &  0.0797  &  0.0393  &  0.0016 \\
+BIC  &  6606.4857  &  6759.8360  &  6607.2750  &  6721.5702  &  6545.4132  &  6224.2892 \\
+AIC  &  6583.9990  &  6737.3493  &  6584.7883  &  6699.0835  &  6522.9265  &  6201.8025 \\
+Std. Error  &  Classical  &  Classical  &  Classical  &  Classical  &  Classical  &  Classical \\
+\bottomrule
+\multicolumn{7}{r}{+ $p<0.1$; * $p<0.05$; ** $p<0.01$; *** $p<0.001$}\\
+\end{tabular}}
+\end{table}
+Saving table tab-j4.xlsx...done!
+Saving table tab-j4.csv...done!
+Saving table tab-j4.tex...done!
+Saving table tab-j5.xlsx...done!
+Saving table tab-j5.csv...done!
+Saving table tab-j5.tex...done!
+Saving table tab-j6.xlsx...done!
+Saving table tab-j6.csv...done!
+Saving table tab-j6.tex...done!
+shape: (24, 6)
+┌───────────────────┬──────────────┬───────┬───────────────┬───────────────────┬───────────────────┐
+│ Pair              ┆ Position     ┆ Party ┆ Exposure      ┆ Republican voter  ┆ Democratic voter  │
+│ ---               ┆ ---          ┆ ---   ┆ ---           ┆ ---               ┆ ---               │
+│ str               ┆ enum         ┆ str   ┆ enum          ┆ str               ┆ str               │
+╞═══════════════════╪══════════════╪═══════╪═══════════════╪═══════════════════╪═══════════════════╡
+│ Partisan          ┆ Liberal      ┆ Dem   ┆ Status        ┆ 0.3067***         ┆ 0.669*** (0.012)  │
+│ candidates pair   ┆              ┆       ┆ reassuring    ┆ (0.0115)          ┆                   │
+│ (Democratic x     ┆              ┆       ┆ (Ref.)        ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Liberal      ┆ Rep   ┆ Status        ┆ 0.3035***         ┆ -0.2457***        │
+│ candidates pair   ┆              ┆       ┆ reassuring    ┆ (0.0208)          ┆ (0.0212)          │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Conservative ┆ Dem   ┆ Status        ┆ 0.0754***         ┆ -0.0803***        │
+│ candidates pair   ┆              ┆       ┆ reassuring    ┆ (0.0161)          ┆ (0.0165)          │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Conservative ┆ Rep   ┆ Status        ┆ 0.0132  (0.0224)  ┆ -0.0227  (0.0226) │
+│ candidates pair   ┆              ┆       ┆ reassuring    ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Liberal      ┆ Dem   ┆ Racial threat ┆ 0.0313+ (0.0168)  ┆ 0.0078  (0.0172)  │
+│ candidates pair   ┆              ┆       ┆               ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Liberal      ┆ Rep   ┆ Racial threat ┆ -0.0412  (0.0303) ┆ 0.0129  (0.0306)  │
+│ candidates pair   ┆              ┆       ┆               ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Conservative ┆ Dem   ┆ Racial threat ┆ -0.0091  (0.0231) ┆ -0.0501* (0.0235) │
+│ candidates pair   ┆              ┆       ┆               ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Conservative ┆ Rep   ┆ Racial threat ┆ -0.0201  (0.032)  ┆ 0.0471  (0.0326)  │
+│ candidates pair   ┆              ┆       ┆               ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Liberal      ┆ Dem   ┆ Nationality   ┆ -0.0133  (0.0169) ┆ -0.0421* (0.017)  │
+│ candidates pair   ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Liberal      ┆ Rep   ┆ Nationality   ┆ 0.062* (0.0305)   ┆ 0.1063*** (0.03)  │
+│ candidates pair   ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Conservative ┆ Dem   ┆ Nationality   ┆ -0.019  (0.023)   ┆ -0.0322  (0.0231) │
+│ candidates pair   ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Conservative ┆ Rep   ┆ Nationality   ┆ -0.0314  (0.0326) ┆ 0.0204  (0.0317)  │
+│ candidates pair   ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆               ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Liberal      ┆ Dem   ┆ Racial and    ┆ -0.0159  (0.0169) ┆ 0.0171  (0.0164)  │
+│ candidates pair   ┆              ┆       ┆ nationality   ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Liberal      ┆ Rep   ┆ Racial and    ┆ 0.0602+ (0.0308)  ┆ -0.026  (0.0293)  │
+│ candidates pair   ┆              ┆       ┆ nationality   ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Conservative ┆ Dem   ┆ Racial and    ┆ -0.0292  (0.0233) ┆ -0.029  (0.0228)  │
+│ candidates pair   ┆              ┆       ┆ nationality   ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Partisan          ┆ Conservative ┆ Rep   ┆ Racial and    ┆ 0.0037  (0.033)   ┆ 0.0432  (0.0312)  │
+│ candidates pair   ┆              ┆       ┆ nationality   ┆                   ┆                   │
+│ (Democratic x     ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ Republican)       ┆              ┆       ┆               ┆                   ┆                   │
+│ Non-partisan      ┆ Liberal      ┆ Ind   ┆ Status        ┆ 0.4484***         ┆ 0.5621***         │
+│ candidates pair   ┆              ┆       ┆ reassuring    ┆ (0.0077)          ┆ (0.0078)          │
+│ (Independent x    ┆              ┆       ┆ (Ref.)        ┆                   ┆                   │
+│ Independent)      ┆              ┆       ┆               ┆                   ┆                   │
+│ Non-partisan      ┆ Conservative ┆ Ind   ┆ Status        ┆ 0.1025***         ┆ -0.1255***        │
+│ candidates pair   ┆              ┆       ┆ reassuring    ┆ (0.0152)          ┆ (0.0158)          │
+│ (Independent x    ┆              ┆       ┆               ┆                   ┆                   │
+│ Independent)      ┆              ┆       ┆               ┆                   ┆                   │
+│ Non-partisan      ┆ Liberal      ┆ Ind   ┆ Racial threat ┆ 0.0195+ (0.0113)  ┆ 0.0048  (0.0112)  │
+│ candidates pair   ┆              ┆       ┆               ┆                   ┆                   │
+│ (Independent x    ┆              ┆       ┆               ┆                   ┆                   │
+│ Independent)      ┆              ┆       ┆               ┆                   ┆                   │
+│ Non-partisan      ┆ Conservative ┆ Ind   ┆ Racial threat ┆ -0.0373+ (0.0225) ┆ -0.0089  (0.0226) │
+│ candidates pair   ┆              ┆       ┆               ┆                   ┆                   │
+│ (Independent x    ┆              ┆       ┆               ┆                   ┆                   │
+│ Independent)      ┆              ┆       ┆               ┆                   ┆                   │
+│ Non-partisan      ┆ Liberal      ┆ Ind   ┆ Nationality   ┆ 0.011  (0.0111)   ┆ 0.0127  (0.0111)  │
+│ candidates pair   ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ (Independent x    ┆              ┆       ┆               ┆                   ┆                   │
+│ Independent)      ┆              ┆       ┆               ┆                   ┆                   │
+│ Non-partisan      ┆ Conservative ┆ Ind   ┆ Nationality   ┆ -0.022  (0.0219)  ┆ -0.0242  (0.0223) │
+│ candidates pair   ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ (Independent x    ┆              ┆       ┆               ┆                   ┆                   │
+│ Independent)      ┆              ┆       ┆               ┆                   ┆                   │
+│ Non-partisan      ┆ Liberal      ┆ Ind   ┆ Racial and    ┆ 0.0094  (0.0112)  ┆ 0.0188+ (0.0111)  │
+│ candidates pair   ┆              ┆       ┆ nationality   ┆                   ┆                   │
+│ (Independent x    ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ Independent)      ┆              ┆       ┆               ┆                   ┆                   │
+│ Non-partisan      ┆ Conservative ┆ Ind   ┆ Racial and    ┆ -0.0171  (0.0224) ┆ -0.0355  (0.0221) │
+│ candidates pair   ┆              ┆       ┆ nationality   ┆                   ┆                   │
+│ (Independent x    ┆              ┆       ┆ threat        ┆                   ┆                   │
+│ Independent)      ┆              ┆       ┆               ┆                   ┆                   │
+└───────────────────┴──────────────┴───────┴───────────────┴───────────────────┴───────────────────┘
+Saving table tab-l1.xlsx...done!
+Saving table tab-l1.csv...done!
+Saving table tab-l1.tex...done!
+shape: (18, 5)
+┌────────────────────┬────────────────────────┬───────────────────┬───────────────────┬────────────┐
+│ Issue              ┆ Exposure               ┆ Democratic voter  ┆ Republican voter  ┆ Difference │
+│ ---                ┆ ---                    ┆ ---               ┆ ---               ┆ ---        │
+│ str                ┆ str                    ┆ str               ┆ str               ┆ str        │
+╞════════════════════╪════════════════════════╪═══════════════════╪═══════════════════╪════════════╡
+│ Abortion           ┆ Nationality threat     ┆ 0.0171  (0.0518)  ┆ -0.0906  (0.0633) ┆ 0.1077     │
+│ Abortion           ┆ Racial and nationality ┆ 0.0549  (0.0468)  ┆ -0.0552  (0.0585) ┆ 0.11       │
+│                    ┆ threat                 ┆                   ┆                   ┆            │
+│ Abortion           ┆ Racial threat          ┆ 0.0434  (0.0501)  ┆ -0.1034  (0.0656) ┆ 0.1469+    │
+│ Affirmative action ┆ Nationality threat     ┆ 0.0313  (0.0478)  ┆ -0.0365  (0.0475) ┆ 0.0678     │
+│ Affirmative action ┆ Racial and nationality ┆ 0.0149  (0.0474)  ┆ 0.0032  (0.0532)  ┆ 0.0117     │
+│                    ┆ threat                 ┆                   ┆                   ┆            │
+│ Affirmative action ┆ Racial threat          ┆ -0.002  (0.0492)  ┆ -0.012  (0.0493)  ┆ 0.01       │
+│ Immigration        ┆ Nationality threat     ┆ -0.0606  (0.0496) ┆ 0.0156  (0.0525)  ┆ -0.0762    │
+│ Immigration        ┆ Racial and nationality ┆ -0.0478  (0.0495) ┆ -0.0423  (0.0531) ┆ -0.0055    │
+│                    ┆ threat                 ┆                   ┆                   ┆            │
+│ Immigration        ┆ Racial threat          ┆ 0.0342  (0.0503)  ┆ -0.0296  (0.0534) ┆ 0.0638     │
+│ LGBT rights        ┆ Nationality threat     ┆ -0.1069* (0.0542) ┆ -0.0549  (0.0468) ┆ -0.052     │
+│ LGBT rights        ┆ Racial and nationality ┆ -0.1219* (0.0519) ┆ 0.019  (0.055)    ┆ -0.1409+   │
+│                    ┆ threat                 ┆                   ┆                   ┆            │
+│ LGBT rights        ┆ Racial threat          ┆ -0.0847  (0.0569) ┆ -0.0165  (0.0561) ┆ -0.0682    │
+│ Redistribution     ┆ Nationality threat     ┆ -0.0125  (0.048)  ┆ -0.0132  (0.0494) ┆ 0.0007     │
+│ Redistribution     ┆ Racial and nationality ┆ 0.0298  (0.0493)  ┆ -0.0613  (0.0505) ┆ 0.091      │
+│                    ┆ threat                 ┆                   ┆                   ┆            │
+│ Redistribution     ┆ Racial threat          ┆ 0.0254  (0.0473)  ┆ 0.02  (0.045)     ┆ 0.0054     │
+│ Trade with China   ┆ Nationality threat     ┆ -0.0335  (0.0505) ┆ -0.004  (0.0486)  ┆ -0.0295    │
+│ Trade with China   ┆ Racial and nationality ┆ -0.0475  (0.0541) ┆ -0.0151  (0.0533) ┆ -0.0324    │
+│                    ┆ threat                 ┆                   ┆                   ┆            │
+│ Trade with China   ┆ Racial threat          ┆ 0.0051  (0.0525)  ┆ -0.0894+ (0.0528) ┆ 0.0946     │
+└────────────────────┴────────────────────────┴───────────────────┴───────────────────┴────────────┘
+\begin{table}[!htb]
+\caption{Difference (last column) between the causal effect of the interaction between threat to social status of whites and Americans and candidates’ issue position in various areas on Democratic and Republican voters probabilityof selecting the candidate. Estimates from linear probability models with clustered SE by subject (in parenthesis). Candidate pair: IxI}
+\label{tab-l2}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}{llccc}
+\toprule
+Issue  &  Exposure  &  Democratic voter  &  Republican voter  &  Difference \\
+\midrule
+Abortion  &  Nationality threat  &  0.0171  (0.0518)  &  -0.0906  (0.0633)  &  0.1077  \\
+Abortion  &  Racial and nationality threat  &  0.0549  (0.0468)  &  -0.0552  (0.0585)  &  0.11  \\
+Abortion  &  Racial threat  &  0.0434  (0.0501)  &  -0.1034  (0.0656)  &  0.1469+ \\
+Affirmative action  &  Nationality threat  &  0.0313  (0.0478)  &  -0.0365  (0.0475)  &  0.0678  \\
+Affirmative action  &  Racial and nationality threat  &  0.0149  (0.0474)  &  0.0032  (0.0532)  &  0.0117  \\
+Affirmative action  &  Racial threat  &  -0.002  (0.0492)  &  -0.012  (0.0493)  &  0.01  \\
+Immigration  &  Nationality threat  &  -0.0606  (0.0496)  &  0.0156  (0.0525)  &  -0.0762  \\
+Immigration  &  Racial and nationality threat  &  -0.0478  (0.0495)  &  -0.0423  (0.0531)  &  -0.0055  \\
+Immigration  &  Racial threat  &  0.0342  (0.0503)  &  -0.0296  (0.0534)  &  0.0638  \\
+LGBT rights  &  Nationality threat  &  -0.1069* (0.0542)  &  -0.0549  (0.0468)  &  -0.052  \\
+LGBT rights  &  Racial and nationality threat  &  -0.1219* (0.0519)  &  0.019  (0.055)  &  -0.1409+ \\
+LGBT rights  &  Racial threat  &  -0.0847  (0.0569)  &  -0.0165  (0.0561)  &  -0.0682  \\
+Redistribution  &  Nationality threat  &  -0.0125  (0.048)  &  -0.0132  (0.0494)  &  0.0007  \\
+Redistribution  &  Racial and nationality threat  &  0.0298  (0.0493)  &  -0.0613  (0.0505)  &  0.091  \\
+Redistribution  &  Racial threat  &  0.0254  (0.0473)  &  0.02  (0.045)  &  0.0054  \\
+Trade with China  &  Nationality threat  &  -0.0335  (0.0505)  &  -0.004  (0.0486)  &  -0.0295  \\
+Trade with China  &  Racial and nationality threat  &  -0.0475  (0.0541)  &  -0.0151  (0.0533)  &  -0.0324  \\
+Trade with China  &  Racial threat  &  0.0051  (0.0525)  &  -0.0894+ (0.0528)  &  0.0946  \\
+\bottomrule
+\multicolumn{5}{r}{+ $p<0.1$; * $p<0.05$; ** $p<0.01$; *** $p<0.001$}\\
+\end{tabular}}
+\end{table}
+Saving table tab-l2.xlsx...done!
+Saving table tab-l2.csv...done!
+Saving table tab-l2.tex...done!
+Saving Figure fig-h1.pdf...done!
+Saving Figure fig-h1.eps...done!
+Saving Figure fig-h1.png...done!
+Saving table fig-h1.xlsx...done!
+Saving table fig-h1.csv...done!
+#+NAME: fig-h1
+#+CAPTION: Sample Balance. Estimates are coefficients  a regression of treatment condition on the pre-treatment covariates
+Saving Figure fig-k1.pdf...done!
+Saving Figure fig-k1.eps...done!
+Saving Figure fig-k1.png...done!
+Saving table fig-k1.xlsx...done!
+Saving table fig-k1.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-k1.pdf}
+\caption{\label{fig-k1}Point estimates (shapes) and 95\% confidence intervals (bars) capturing the causal effect (x-axis) of status threat (shapes and colors) on voters’ support for candidates due to their conservative policy position (y-axis). Estimates based on linear probability models using non-partisan candidate pairs only.Panels show subsamples by voters' partisanship and using pooled data. SE clustered by subject. Subsample: 100\perc correct answers in the manipulation check.}
+\end{label*}
+
+Saving Figure fig-k2.pdf...done!
+Saving Figure fig-k2.eps...done!
+Saving Figure fig-k2.png...done!
+Saving table fig-k2.xlsx...done!
+Saving table fig-k2.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-k2.pdf}
+\caption{\label{fig-k2}Point estimates (shapes) and 95\% confidence intervals (bars) capturing the causal effect (x-axis) of status threat (shapes and colors) on voters’ support for candidates due to their conservative policy position (y-axis). Estimates based on linear probability models using partisan candidate pairs (column panels):Democratic vs Democratic (DxD); Democratic vs Republican (DxR); Republican vs Republican (RxR). Subsample: 100\perc correct answers in the manipulation check.}
+\end{label*}
+
+Saving Figure fig-k3.pdf...done!
+Saving Figure fig-k3.eps...done!
+Saving Figure fig-k3.png...done!
+Saving table fig-k3.xlsx...done!
+Saving table fig-k3.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-k3.pdf}
+\caption{\label{fig-k3}Point estimates (shapes) and 95\% confidence intervals (bars) capturing the causal effect (x-axis) of status threat (shapes and colors) and conservative positions  and their interaction with the conjoint task order. Estimates based on linear probability models. Each y-axis value (e.g., Rac. Threat) includes estimates  from four models: Full sample and three subsamples with only participants who completed the survey 50\\%, 40\\%, and 30\\% faster than the median response time. SE clustered by subject.}
+\end{label*}
+
+Saving Figure fig-m1.pdf...done!
+Saving Figure fig-m1.eps...done!
+Saving Figure fig-m1.png...done!
+Saving table fig-m1.xlsx...done!
+Saving table fig-m1.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-m1.pdf}
+\caption{\label{fig-m1}Point estimates (shapes) and 95\% confidence intervals (bars) capturing the causal effect (x-axis) of status threat (shapes and colors) and conservative positions  and their interaction with the conjoint task order. Estimates based on linear probability models using non-partisan candidate pairs.Panels show subsamples by voters' partisanship. SE clustered by subject.}
+\end{label*}
+
+Saving Figure fig-m2.pdf...done!
+Saving Figure fig-m2.eps...done!
+Saving Figure fig-m2.png...done!
+Saving table fig-m2.xlsx...done!
+Saving table fig-m2.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-m2.pdf}
+\caption{\label{fig-m2}Point estimates (shapes) and 95\% confidence intervals (bars) capturing the causal effect (x-axis) of status threat (shapes and colors) and conservative positions  and their interaction with the conjoint task order. Estimates based on linear probability models using partisan candidate pairs (column panels):Democratic vs Democratic (DxD); Democratic vs Republican (DxR); Republican vs Republican (RxR). Row panels show subsamples by voters' partisanship. SE clustered by subject.}
+\end{label*}
+
+Saving Figure fig-m3.pdf...done!
+Saving Figure fig-m3.eps...done!
+Saving Figure fig-m3.png...done!
+Saving table fig-m3.xlsx...done!
+Saving table fig-m3.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-m3.pdf}
+\caption{\label{fig-m3}Point estimates (shapes) and 95\% confidence intervals (bars) capturing the causal effect (x-axis) of status threat (shapes and colors) and conservative positions  and their interaction with the conjoint profile order. Estimates based on linear probability models using non-partisan candidate pairs.Panels show subsamples by voters' partisanship. SE clustered by subject.}
+\end{label*}
+
+Saving Figure fig-m4.pdf...done!
+Saving Figure fig-m4.eps...done!
+Saving Figure fig-m4.png...done!
+Saving table fig-m4.xlsx...done!
+Saving table fig-m4.csv...done!
+
+\begin{label*}[th!]
+\centering
+\includegraphics[width=1\textwidth]{./tables-and-figures/fig-m4.pdf}
+\caption{\label{fig-m4}Point estimates (shapes) and 95\% confidence intervals (bars) capturing the causal effect (x-axis) of status threat (shapes and colors) and conservative positions  and their interaction with the conjoint profile order. Estimates based on linear probability models using partisan candidate pairs (column panels):Democratic vs Democratic (DxD); Democratic vs Republican (DxR); Republican vs Republican (RxR). Row panels show subsamples by voters' partisanship. SE clustered by subject.}
+\end{label*}
+
+----------------------------------------
+Last updated: Thu May 01 2025 - 12:35 PM
+
+Script: model.py
+Code execution time: 0.9682 minutes
+
+System Information:
+-------------------
+Python implementation: CPython
+Python version       : 3.12.3
+IPython version      : 9.2.0
+
+Compiler    : GCC 13.3.0
+OS          : Linux
+Release     : 6.8.0-57-generic
+Machine     : x86_64
+Processor   : x86_64
+CPU cores   : 16
+Architecture: 64bit
+
+Memory available: 15.33 GB
+Memory used: 1.69 GB
+
+Modules used:
+-------------
+numpy         : 2.2.3
+tidypolars4sci: 0.0.1.21
+sys           : 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+statsmodels   : 0.14.4
+altair        : 5.5.0
+tools4sci     : 0.0.1.2
+json          : 2.0.9
+psutil        : 7.0.0
+watermark     : 2.5.0
+re            : 2.2.1
+
+Watermark: 2.5.0
+
