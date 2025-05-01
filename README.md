@@ -36,9 +36,9 @@ For replication, make sure you have the following folder structure in place
 ```ascii
 .
 ├── man                              <- folder with the manuscript (limited if copyright applies)
-│   ├── figures-and-tables           <- tables and figures (in .pdf, .png. etc) used in the manuscript
+│   ├── tables-and-figures           <- tables and figures (in .pdf, .png. etc) used in the manuscript
 │   └── supp-material
-│       └── figures-and-tables       <- tables and figures used in the online supplement
+│       └── tables-and-figures       <- tables and figures used in the online supplement
 ├── src                              <- scripts for replication
 │   ├──data
 │   │  └── final                     <- folder with data used in the analysis; codebook is here
